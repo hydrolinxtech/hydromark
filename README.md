@@ -2,10 +2,6 @@
 
 **HydroMark is a WYSIWYG Markdown add-in (addin) for Microsoft OneNote on Windows.** Write Markdown on an OneNote page, press Enter, and it renders instantly into native OneNote content — headings, lists, tables, task lists, code blocks, LaTeX math and Mermaid diagrams. No exports, no screenshots, no switching apps. Since **v1.1.0**, a built-in **AI assistant** writes rendered articles, tables and page operations straight into your notes.
 
-> **Search terms / 关键词** — OneNote Markdown · OneNote add-in · OneNote addin · OneNote plugin · OneNote extension · Markdown editor for OneNote · WYSIWYG Markdown in OneNote · AI assistant for OneNote · AI note-taking · HydroMark
-
----
-
 > ⚠️ **This repository is NOT open source.** It exists only for product documentation, announcements, and community feedback (Issues & Discussions). The HydroMark source code is proprietary and is **not** published here. See [License & Source Code](#license--source-code) below.
 
 ---
@@ -86,18 +82,6 @@ Download the single multilingual installer from the website, run it, and open On
 **Is it free?**
 There is a 14-day full-featured trial. After that, licenses are per device (email + key): Individual and Family plans, Basic and Pro, lifetime or annual.
 
-## Also known as
-
-People search for this product in many ways. All of them refer to the same OneNote Markdown add-in:
-
-- OneNote Markdown add-in / OneNote Markdown addin
-- Markdown add-in for OneNote / Markdown editor for OneNote
-- OneNote plugin / OneNote extension / OneNote add-on
-- Use Markdown in OneNote / Markdown support in OneNote
-- OneNote Markdown editor / OneNote WYSIWYG Markdown
-- AI assistant for OneNote / AI note-taking in OneNote / AI writing for OneNote
-- HydroMark / HydroMark add-in / Hydro Mark OneNote
-
 ## 🌐 Official Links
 
 - Website (English): https://hydromark.hydrolinx.top
@@ -146,32 +130,3 @@ You may **not**, without explicit written permission:
 ---
 
 *HydroMark — Markdown, the way OneNote should have had it. Now with an AI assistant that does the typing.*
-
-<!--
-  MAINTAINER NOTE — repository metadata (set in the repository's own settings, not in this file;
-  applies to GitHub "About"/Topics and to Gitea/GitLab description + tags)
-
-  Description (copy into "About" → Description, 350-char limit):
-  HydroMark — a WYSIWYG Markdown add-in (addin) for Microsoft OneNote on Windows, with a built-in AI assistant. Type Markdown, press Enter, get native OneNote content: code, LaTeX math, Mermaid diagrams. AI writes rendered notes for you. OneNote desktop 2013+ only.
-
-  Topics / tags (one per line):
-  onenote
-  onenote-addin
-  onenote-plugin
-  markdown
-  markdown-editor
-  wysiwyg
-  ai
-  ai-assistant
-  llm
-  note-taking
-  notes
-  productivity
-  office-addin
-  mermaid
-  latex
-  windows
-
-  Optional: renaming the repo to "hydromark-onenote-markdown-addin" would rank better for combined
-  queries, but the current name already matches the brand term "HydroMark".
--->
