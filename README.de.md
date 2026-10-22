@@ -4,7 +4,7 @@
 
 **HydroMark ist ein WYSIWYG-Markdown-Add-in für Microsoft OneNote unter Windows.** Schreiben Sie Markdown auf einer OneNote-Seite und drücken Sie Enter — es wird sofort in native OneNote-Inhalte umgewandelt: Überschriften, Listen, Tabellen, Aufgabenlisten, Codeblöcke, LaTeX-Formeln und Mermaid-Diagramme. Kein Export, keine Screenshots, kein Wechsel zwischen Apps. Seit **v1.1.0** schreibt ein integrierter **KI-Assistent** fertig gerenderte Artikel, Tabellen und Seitenoperationen direkt in Ihre Notizen.
 
-> ⚠️ **Dieses Repository ist NICHT Open Source.** Es dient ausschließlich der Produktdokumentation, Ankündigungen und dem Community-Feedback (Issues & Discussions). Der HydroMark-Quellcode ist proprietär und wird hier **nicht** veröffentlicht. Siehe [Lizenz und Quellcode](#lizenz-und-quellcode) unten.
+> ⚠️ **Dieses Repository ist teilweise Open Source: Ein Teil des Codes und der Dokumentation wird hier veröffentlicht.** Außerdem finden hier Produktankündigungen und Community-Feedback (Issues & Discussions) statt. Siehe [Lizenz und Quellcode](#lizenz-und-quellcode) unten.
 
 ---
 
