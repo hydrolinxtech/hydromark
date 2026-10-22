@@ -41,4 +41,4 @@
 - 🌐 中文站：https://hydromark.hydrolinx.cn
 - 🌐 国际站：https://hydromark.hydrolinx.top
 
-> 注意：本仓库仅用于社区支持与反馈。HydroMark 源代码为专有代码，不在此发布。
+> 注意：本仓库为开源仓库，存放 HydroMark 项目的部分代码与文档。

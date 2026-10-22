@@ -40,4 +40,4 @@ Utilisez [Discussions](../../discussions) → « Ideas » pour que la communaut�
 - 📧 Support : support@hydrolinx.top
 - 🌐 Site web : https://hydromark.hydrolinx.top · https://hydromark.hydrolinx.cn
 
-> Remarque : ce dépôt sert uniquement au support communautaire et aux retours. Le code source de HydroMark est propriétaire et n'est pas publié ici.
+> Remarque : ceci est un dépôt open source qui contient une partie du code source et de la documentation du projet HydroMark.

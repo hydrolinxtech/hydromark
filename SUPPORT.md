@@ -41,4 +41,4 @@ Use [Discussions](../../discussions) → "Ideas" so the community can upvote.
 - 📧 China: support@hydrolinx.cn
 - 🌐 Website: https://hydromark.hydrolinx.top · https://hydromark.hydrolinx.cn
 
-> Note: This repository is for community support and feedback only. The HydroMark source code is proprietary and not published here.
+> Note: This is an open-source repository containing part of the HydroMark codebase and documentation.

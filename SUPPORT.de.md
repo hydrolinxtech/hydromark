@@ -40,4 +40,4 @@ Nutzen Sie [Discussions](../../discussions) → „Ideen“, damit die Community
 - 📧 E-Mail: support@hydrolinx.top
 - 🌐 Website: https://hydromark.hydrolinx.top · https://hydromark.hydrolinx.cn
 
-> Hinweis: Dieses Repository dient ausschließlich dem Community-Support und Feedback. Der HydroMark-Quellcode ist proprietär und wird hier nicht veröffentlicht.
+> Hinweis: Dies ist ein Open-Source-Repository, das einen Teil des Codes und der Dokumentation des HydroMark-Projekts enthält.

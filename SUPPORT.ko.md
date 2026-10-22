@@ -40,4 +40,4 @@ Microsoft OneNote용 Markdown 애드인 **HydroMark**를 사용해 주셔서 감
 - 📧 이메일: support@hydrolinx.top
 - 🌐 웹사이트: https://hydromark.hydrolinx.top · https://hydromark.hydrolinx.cn
 
-> 참고: 이 저장소는 커뮤니티 지원 및 피드백만을 위한 것입니다. HydroMark 소스 코드는 독점 소유이며 여기에 공개되지 않습니다.
+> 참고: 이 저장소는 오픈 소스 저장소로, HydroMark 프로젝트의 코드와 문서 일부를 담고 있습니다.

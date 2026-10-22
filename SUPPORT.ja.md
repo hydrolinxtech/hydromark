@@ -40,4 +40,4 @@
 - 📧 メール：support@hydrolinx.top
 - 🌐 ウェブサイト：https://hydromark.hydrolinx.top · https://hydromark.hydrolinx.cn
 
-> 注：このリポジトリはコミュニティサポートとフィードバックのためのものです。HydroMark のソースコードはプロプライエタリであり、ここでは公開されていません。
+> 注：このリポジトリはオープンソースのリポジトリで、HydroMark プロジェクトのコードとドキュメントの一部を収録しています。

@@ -4,7 +4,7 @@
 
 **HydroMark 是一款面向 Windows 上 Microsoft OneNote 的所见即所得 Markdown 插件。** 在 OneNote 页面上书写 Markdown，按下 Enter，内容即刻渲染为 OneNote 原生内容——标题、列表、表格、任务列表、代码块、LaTeX 公式与 Mermaid 图表。无需导出、无需截图、无需切换应用。自 **v1.1.0** 起，内置的 **AI 助手**可将渲染后的文章、表格和页面操作直接写入你的笔记。
 
-> ⚠️ **本仓库为部分开源：此处发布部分代码与文档。** 同时用于产品公告和社区反馈（Issues 与 Discussions）。详见下方[许可与源代码](#许可与源代码)。
+> ⚠️ **本仓库为开源仓库，存放 HydroMark 项目的部分代码与文档。** 同时用于产品公告和社区反馈（Issues 与 Discussions）。详见下方[许可与源代码](#许可与源代码)。
 
 ---
 
@@ -115,19 +115,17 @@ HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown �
 
 ## 许可与源代码
 
-HydroMark 是**专有软件**。源代码**并非开源**，也不通过本仓库分发。保留所有权利。
+本仓库为**开源仓库**，存放 HydroMark 项目的部分源代码与文档；项目其余部分不在本仓库中。
 
 欢迎你：
 
-- 阅读此处的文档和公告
-- 提交 issue 并参与讨论，帮助我们改进
+- 阅读、学习并复用本仓库中的代码与文档
+- 提交 issue、参与讨论，帮助我们改进
+- 在介绍或评测本项目时使用 HydroMark 名称
 
-未经明确的书面许可，你**不得**：
+请勿在衍生产品或服务中使用 HydroMark 名称与品牌，以免用户对来源产生误解。
 
-- 复制、修改或再分发 HydroMark 源代码
-- 在衍生产品中使用 HydroMark 名称 / 品牌
-
-© HydroLinx. 保留所有权利。
+© HydroLinx。HydroMark 及其标识为 HydroLinx 的商标。
 
 ---
 

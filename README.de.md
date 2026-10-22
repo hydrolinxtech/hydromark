@@ -4,7 +4,7 @@
 
 **HydroMark ist ein WYSIWYG-Markdown-Add-in für Microsoft OneNote unter Windows.** Schreiben Sie Markdown auf einer OneNote-Seite und drücken Sie Enter — es wird sofort in native OneNote-Inhalte umgewandelt: Überschriften, Listen, Tabellen, Aufgabenlisten, Codeblöcke, LaTeX-Formeln und Mermaid-Diagramme. Kein Export, keine Screenshots, kein Wechsel zwischen Apps. Seit **v1.1.0** schreibt ein integrierter **KI-Assistent** fertig gerenderte Artikel, Tabellen und Seitenoperationen direkt in Ihre Notizen.
 
-> ⚠️ **Dieses Repository ist teilweise Open Source: Ein Teil des Codes und der Dokumentation wird hier veröffentlicht.** Außerdem finden hier Produktankündigungen und Community-Feedback (Issues & Discussions) statt. Siehe [Lizenz und Quellcode](#lizenz-und-quellcode) unten.
+> ⚠️ **Dies ist ein Open-Source-Repository, das einen Teil des Codes und der Dokumentation des HydroMark-Projekts enthält.** Außerdem finden hier Produktankündigungen und Community-Feedback (Issues & Discussions) statt. Siehe [Lizenz und Quellcode](#lizenz-und-quellcode) unten.
 
 ---
 
@@ -115,19 +115,17 @@ Folgen Sie der Seite [Releases](../../releases) für Update-Hinweise.
 
 ## Lizenz und Quellcode
 
-HydroMark ist **proprietäre Software**. Der Quellcode ist **nicht Open Source** und wird nicht über dieses Repository verbreitet. Alle Rechte vorbehalten.
+Dies ist ein **Open-Source-Repository**. Es enthält einen Teil des Quellcodes und der Dokumentation des HydroMark-Projekts; der restliche Teil des Projekts liegt nicht in diesem Repository.
 
 Folgendes ist willkommen:
 
-- Die Dokumentation und Ankündigungen hier lesen
+- Den Code und die Dokumentation in diesem Repository lesen, studieren und wiederverwenden
 - Issues erstellen und an Diskussionen teilnehmen, um uns zu verbessern
+- Den Namen HydroMark verwenden, wenn Sie das Projekt vorstellen oder rezensieren
 
-Sie dürfen **nicht**, ohne ausdrückliche schriftliche Genehmigung:
+Bitte verwenden Sie den Namen und die Marke HydroMark nicht in abgeleiteten Produkten oder Diensten, damit Nutzer nicht über die Herkunft getäuscht werden.
 
-- Den HydroMark-Quellcode kopieren, ändern oder weitergeben
-- Den Namen / die Marke HydroMark in abgeleiteten Produkten verwenden
-
-© HydroLinx. Alle Rechte vorbehalten.
+© HydroLinx. HydroMark und das Logo sind Marken von HydroLinx.
 
 ---
 

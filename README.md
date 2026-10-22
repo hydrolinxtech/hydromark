@@ -4,7 +4,7 @@
 
 **HydroMark is a WYSIWYG Markdown add-in (addin) for Microsoft OneNote on Windows.** Write Markdown on an OneNote page, press Enter, and it renders instantly into native OneNote content — headings, lists, tables, task lists, code blocks, LaTeX math and Mermaid diagrams. No exports, no screenshots, no switching apps. Since **v1.1.0**, a built-in **AI assistant** writes rendered articles, tables and page operations straight into your notes.
 
-> ⚠️ **This repository is partially open source: part of the code and the documentation is published here.** It also hosts product announcements and community feedback (Issues & Discussions). See [License & Source Code](#license--source-code) below.
+> ⚠️ **This is an open-source repository containing part of the HydroMark project's code and documentation.** It also hosts product announcements and community feedback (Issues & Discussions). See [License & Source Code](#license--source-code) below.
 
 ---
 
@@ -115,19 +115,17 @@ Follow the [Releases](../../releases) page for update notes.
 
 ## License & Source Code
 
-HydroMark is **proprietary software**. The source code is **not open source** and is not distributed through this repository. All rights reserved.
+This is an **open-source repository**. It holds part of the HydroMark project's source code and documentation; the rest of the project is not stored here.
 
 You are welcome to:
 
-- Read the documentation and announcements here
+- Read, study and reuse the code and documentation in this repository
 - File issues and join discussions to help us improve
+- Use the HydroMark name when presenting or reviewing the project
 
-You may **not**, without explicit written permission:
+Please do not use the HydroMark name or brand in derivative products or services, so users are not misled about the origin.
 
-- Copy, modify, or redistribute the HydroMark source code
-- Use the HydroMark name / brand in derivative products
-
-© HydroLinx. All rights reserved.
+© HydroLinx. HydroMark and its logo are trademarks of HydroLinx.
 
 ---
 
