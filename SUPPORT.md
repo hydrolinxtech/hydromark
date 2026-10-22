@@ -1,5 +1,7 @@
 # HydroMark Support — OneNote Markdown Add-in (addin) with AI
 
+[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · **Support**
+
 Thanks for using **HydroMark**, the Markdown add-in for Microsoft OneNote. This page covers how to get help with the add-in, report a bug, or request a feature.
 
 ## Before you report
