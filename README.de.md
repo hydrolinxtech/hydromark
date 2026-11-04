@@ -1,8 +1,8 @@
 # HydroMark — OneNote-Markdown-Add-in mit KI-Assistent
 
-[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · **Deutsch** · [Français](README.fr.md) · [Support](SUPPORT.de.md)
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · **Deutsch** · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [Support](SUPPORT.de.md)
 
-**HydroMark ist ein WYSIWYG-Markdown-Add-in für Microsoft OneNote unter Windows.** Schreiben Sie Markdown auf einer OneNote-Seite und drücken Sie Enter — es wird sofort in native OneNote-Inhalte umgewandelt: Überschriften, Listen, Tabellen, Aufgabenlisten, Codeblöcke, LaTeX-Formeln und Mermaid-Diagramme. Kein Export, keine Screenshots, kein Wechsel zwischen Apps. Seit **v1.1.0** schreibt ein integrierter **KI-Assistent** fertig gerenderte Artikel, Tabellen und Seitenoperationen direkt in Ihre Notizen.
+**HydroMark ist ein WYSIWYG-Markdown-Add-in für Microsoft OneNote unter Windows.** Schreiben Sie Markdown auf einer OneNote-Seite — es wird beim Tippen sofort in native OneNote-Inhalte umgewandelt: Überschriften, Listen, Tabellen, Aufgabenlisten, Codeblöcke, LaTeX-Formeln und Mermaid-Diagramme. Kein Export, keine Screenshots, kein Wechsel zwischen Apps. Seit **v1.1.0** schreibt ein integrierter **KI-Assistent** fertig gerenderte Artikel, Tabellen und Seitenoperationen direkt in Ihre Notizen.
 
 > ⚠️ **Dies ist ein Open-Source-Repository, das einen Teil des Codes und der Dokumentation des HydroMark-Projekts enthält.** Außerdem finden hier Produktankündigungen und Community-Feedback (Issues & Discussions) statt. Siehe [Lizenz und Quellcode](#lizenz-und-quellcode) unten.
 
@@ -10,7 +10,7 @@
 
 ## Was ist HydroMark?
 
-HydroMark ist ein **OneNote-Markdown-Add-in**: ein Windows-Add-in, das einen echten Markdown-Editor direkt in Microsoft OneNote integriert. Sie schreiben weiterhin in den Notizbüchern, auf der Arbeitsfläche und mit der Cloud-Synchronisierung von OneNote, erhalten aber den Markdown-Workflow, den Sie wirklich wollen — tippen Sie `## Heading`, drücken Sie Enter, und die Seite zeigt eine gerenderte Überschrift statt roher Syntax.
+HydroMark ist ein **OneNote-Markdown-Add-in**: ein Windows-Add-in, das einen echten Markdown-Editor direkt in Microsoft OneNote integriert. Sie schreiben weiterhin in den Notizbüchern, auf der Arbeitsfläche und mit der Cloud-Synchronisierung von OneNote, erhalten aber den Markdown-Workflow, den Sie wirklich wollen — tippen Sie `## Heading` und dann die Leertaste, und die Seite zeigt eine gerenderte Überschrift statt roher Syntax.
 
 Alles wird mit **OneNote-eigenen nativen Elementen gerendert, nicht mit Bildern**, daher bleiben Ihre Markdown-Notizen bearbeitbar, in OneNote durchsuchbar, offline verfügbar und werden mit OneNote auf Smartphone, Tablet und im Web synchronisiert. Drücken Sie `F8`, um eine Seite wieder nach `.md` zu exportieren.
 
@@ -29,8 +29,8 @@ Seit **v1.1.0** enthält das Add-in außerdem einen **KI-Assistenten**. Anders a
 | **Laufzeitumgebung**     | .NET Framework 4.8+                                                 |
 | **Nicht unterstützt**    | OneNote für Windows 10 (UWP / Microsoft Store), macOS, Mobilgeräte  |
 | **Testphase**            | 14 Tage voller Funktionsumfang, keine Kreditkarte                   |
-| **KI**                   | Integriert — 15 Anbieter, eigener API-Schlüssel                     |
-| **Sprachen**             | 简体中文 · English · 日本語 · 한국어 · Deutsch · Français · Español · Русский |
+| **KI**                   | Integriert — 14 Anbieter, eigener API-Schlüssel                     |
+| **Sprachen**             | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Funktionen
 
@@ -40,14 +40,14 @@ Die meisten KI-Seitenleisten liefern eine Textwand zum Kopieren. Der Assistent v
 
 - **Führt Add-in-Aktionen aus, nicht nur Chat** — fügt einen vollständig gerenderten Artikel ein, erstellt Tabellen, führt Seitenoperationen aus (Rendern, Exportieren, Inhaltsverzeichnis, Seitenbreite); Aktionsergebnisse fließen zurück in die Unterhaltung, damit das Modell bestätigen oder sich selbst korrigieren kann.
 - **Tabellen auf Befehl, in der gewünschten Breite** — `insert_table` unterstützt Layouts über die volle Seitenbreite und **inhaltspassend**; der KI-Pfad nutzt dieselbe Tabellen-Engine wie der Breitenumschalter `Alt+W`.
-- **Eigenes Modell** — 15 integrierte Anbieter (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), eigene Base-URL für alles andere. Ihr API-Schlüssel bleibt auf Ihrem Rechner; kein Vermittlungsserver.
+- **Eigenes Modell** — 14 integrierte Anbieter (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), eigene Base-URL für alles andere. Ihr API-Schlüssel bleibt auf Ihrem Rechner; kein Vermittlungsserver.
 - **Multimodal** — fügen Sie einen Screenshot in den Chat ein und referenzieren Sie ihn mit multimodalen Modellen.
 - **Sprachfolgend** — auf Chinesisch fragen, Chinesisch erhalten; auf Englisch fragen, Englisch erhalten.
 - **In jeder Lizenz enthalten** — in der 14-tägigen kostenlosen Testphase und in allen kostenpflichtigen Tarifen. Öffnen mit `Alt+A` oder über die Gruppe **AI** im Menüband.
 
 ### 📝 Markdown-Rendering
 
-- **Markdown-Rendering in Echtzeit** — Markdown tippen, Enter drücken, sofort formatiert sehen (WYSIWYG).
+- **Markdown-Rendering beim Tippen** — `#` oder `-` tippen und dann Leertaste: die Zeile ist sofort formatiert; andere Blöcke weiterhin per Enter oder F5 (WYSIWYG).
 - **Doppelansicht: Quelle / gerendert** — jederzeit zwischen rohem Markdown und gerenderter Ausgabe wechseln, pro Seite oder pro Absatz.
 - **Markdown von überall einfügen** — `Ctrl+Shift+V` verwandelt einen kopierten Markdown-Block von einer Webseite, einem Dokument oder einer KI-Antwort in eine fertige Notiz.
 - **Code-Hervorhebung** — Syntaxhervorhebung für 200+ Sprachen, 100+ Themes, Kopieren mit einem Klick.

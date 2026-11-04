@@ -1,8 +1,8 @@
 # HydroMark — OneNote Markdown Add-in with an AI Assistant
 
-**English** · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Support](SUPPORT.md)
+**English** · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [Support](SUPPORT.md)
 
-**HydroMark is a WYSIWYG Markdown add-in (addin) for Microsoft OneNote on Windows.** Write Markdown on an OneNote page, press Enter, and it renders instantly into native OneNote content — headings, lists, tables, task lists, code blocks, LaTeX math and Mermaid diagrams. No exports, no screenshots, no switching apps. Since **v1.1.0**, a built-in **AI assistant** writes rendered articles, tables and page operations straight into your notes.
+**HydroMark is a WYSIWYG Markdown add-in (addin) for Microsoft OneNote on Windows.** Write Markdown on a OneNote page, and it renders as you type into native OneNote content — headings, lists, tables, task lists, code blocks, LaTeX math and Mermaid diagrams. No exports, no screenshots, no switching apps. Since **v1.1.0**, a built-in **AI assistant** writes rendered articles, tables and page operations straight into your notes.
 
 > ⚠️ **This is an open-source repository containing part of the HydroMark project's code and documentation.** It also hosts product announcements and community feedback (Issues & Discussions). See [License & Source Code](#license--source-code) below.
 
@@ -10,7 +10,7 @@
 
 ## What is HydroMark?
 
-HydroMark is an **OneNote Markdown add-in**: a Windows add-in that puts a real Markdown editor inside Microsoft OneNote. You keep writing in OneNote's notebooks, canvas and cloud sync, but you get the Markdown workflow you actually want — type `## Heading`, press Enter, and the page shows a rendered heading instead of raw syntax.
+HydroMark is an **OneNote Markdown add-in**: a Windows add-in that puts a real Markdown editor inside Microsoft OneNote. You keep writing in OneNote's notebooks, canvas and cloud sync, but you get the Markdown workflow you actually want — type `## Heading` then a space, and the page shows a rendered heading instead of raw syntax.
 
 Everything is rendered with **OneNote's own native elements, not images**, so your Markdown notes stay editable, searchable inside OneNote, available offline, and synced to OneNote on phone, tablet and the web. Press `F8` to export a page back to `.md`.
 
@@ -29,8 +29,8 @@ Since **v1.1.0** the add-in also includes an **AI assistant**. Unlike AI sidebar
 | **Runtime**       | .NET Framework 4.8+                                                 |
 | **Not supported** | OneNote for Windows 10 (UWP / Microsoft Store), macOS, mobile       |
 | **Trial**         | 14-day full-featured trial, no credit card                          |
-| **AI**            | Built in — 15 providers, bring your own API key                     |
-| **Languages**     | 简体中文 · English · 日本語 · 한국어 · Deutsch · Français · Español · Русский |
+| **AI**            | Built in — 14 providers, bring your own API key                     |
+| **Languages**     | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Features
 
@@ -40,14 +40,14 @@ Most AI sidebars hand you a wall of text to copy-paste. HydroMark's assistant **
 
 - **Executes add-in actions, not just chat** — insert a fully rendered article, build tables, run page operations (render, export, TOC, page width); action results feed back into the conversation so the model can confirm or self-correct.
 - **Tables on command, with the width you asked for** — `insert_table` supports full-page-width and **content-fitted** layouts; the AI path shares the same table engine as the `Alt+W` width toggle.
-- **Bring your own model** — 15 providers built in (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), custom Base URL for anything else. Your API key stays on your machine; no middleman server.
+- **Bring your own model** — 14 providers built in (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), custom Base URL for anything else. Your API key stays on your machine; no middleman server.
 - **Multimodal** — paste a screenshot into the chat and reference it with multimodal models.
 - **Language-following** — ask in Chinese, get Chinese; ask in English, get English.
 - **Included in every license** — the 14-day free trial and all paid tiers. Open it with `Alt+A` or the ribbon's **AI** group.
 
 ### 📝 Markdown rendering
 
-- **Real-time Markdown rendering** — type Markdown, press Enter, see it formatted instantly (WYSIWYG).
+- **Instant Markdown rendering** — type `#` or `-` then a space and the line is already formatted; other blocks still render with Enter or F5 (WYSIWYG).
 - **Source / rendered dual view** — toggle between raw Markdown and rendered output anytime, per page or per paragraph.
 - **Paste Markdown from anywhere** — `Ctrl+Shift+V` turns a copied Markdown block from a webpage, document or AI answer into a finished note.
 - **Code highlighting** — syntax highlighting for 200+ languages, 100+ themes, one-click copy.

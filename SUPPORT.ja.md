@@ -1,6 +1,6 @@
 # HydroMark サポート — AI 搭載の OneNote Markdown アドイン
 
-[English](README.md) · [简体中文](README.zh.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · **サポート**
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · **サポート**
 
 **HydroMark**（Microsoft OneNote 向け Markdown アドイン）をご利用いただきありがとうございます。このページでは、アドインのヘルプの入手方法、バグの報告方法、機能リクエストの方法を説明します。
 

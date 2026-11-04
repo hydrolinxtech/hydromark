@@ -1,6 +1,6 @@
 # Поддержка HydroMark — надстройка Markdown для OneNote с ИИ
 
-[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · **Русский** · [Deutsch](README.de.md) · [Français](README.fr.md) · **Поддержка**
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · **Русский** · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · **Поддержка**
 
 Спасибо за использование **HydroMark** — надстройки Markdown для Microsoft OneNote. Эта страница рассказывает, как получить помощь по надстройке, сообщить об ошибке или запросить функцию.
 

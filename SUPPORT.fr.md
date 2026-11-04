@@ -1,6 +1,6 @@
 # Support HydroMark — complément Markdown pour OneNote avec IA
 
-[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · **Français** · **Support**
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · **Français** · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · **Support**
 
 Merci d'utiliser **HydroMark**, le complément Markdown pour Microsoft OneNote. Cette page explique comment obtenir de l'aide sur le complément, signaler un bug ou demander une fonctionnalité.
 

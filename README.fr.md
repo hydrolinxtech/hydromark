@@ -1,8 +1,8 @@
 # HydroMark — complément Markdown pour OneNote avec un assistant IA
 
-[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · **Français** · [Support](SUPPORT.fr.md)
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · **Français** · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [Support](SUPPORT.fr.md)
 
-**HydroMark est un complément (add-in) Markdown WYSIWYG pour Microsoft OneNote sous Windows.** Écrivez du Markdown sur une page OneNote, appuyez sur Entrée, et il est rendu instantanément en contenu OneNote natif — titres, listes, tableaux, listes de tâches, blocs de code, formules LaTeX et diagrammes Mermaid. Aucun export, aucune capture d'écran, aucun changement d'application. Depuis la **v1.1.0**, un **assistant IA** intégré écrit des articles rendus, des tableaux et des opérations de page directement dans vos notes.
+**HydroMark est un complément (add-in) Markdown WYSIWYG pour Microsoft OneNote sous Windows.** Écrivez du Markdown sur une page OneNote, dès la frappe, il est rendu instantanément en contenu OneNote natif — titres, listes, tableaux, listes de tâches, blocs de code, formules LaTeX et diagrammes Mermaid. Aucun export, aucune capture d'écran, aucun changement d'application. Depuis la **v1.1.0**, un **assistant IA** intégré écrit des articles rendus, des tableaux et des opérations de page directement dans vos notes.
 
 > ⚠️ **Ceci est un dépôt open source qui contient une partie du code et de la documentation du projet HydroMark.** Il accueille aussi les annonces produit et les retours de la communauté (Issues et Discussions). Voir [Licence et code source](#licence-et-code-source) ci-dessous.
 
@@ -10,7 +10,7 @@
 
 ## Qu'est-ce que HydroMark ?
 
-HydroMark est un **complément Markdown pour OneNote** : un complément Windows qui intègre un véritable éditeur Markdown dans Microsoft OneNote. Vous continuez à écrire dans les bloc-notes, le canevas et la synchronisation cloud de OneNote, mais vous obtenez le flux de travail Markdown que vous voulez vraiment — tapez `## Heading`, appuyez sur Entrée, et la page affiche un titre rendu au lieu de la syntaxe brute.
+HydroMark est un **complément Markdown pour OneNote** : un complément Windows qui intègre un véritable éditeur Markdown dans Microsoft OneNote. Vous continuez à écrire dans les bloc-notes, le canevas et la synchronisation cloud de OneNote, mais vous obtenez le flux de travail Markdown que vous voulez vraiment — tapez `## Heading` puis une espace, et la page affiche un titre rendu au lieu de la syntaxe brute.
 
 Tout est rendu avec les **éléments natifs de OneNote, et non des images**, de sorte que vos notes Markdown restent modifiables, consultables dans OneNote, disponibles hors ligne et synchronisées avec OneNote sur téléphone, tablette et web. Appuyez sur `F8` pour exporter une page vers `.md`.
 
@@ -29,8 +29,8 @@ Depuis la **v1.1.0**, le complément inclut également un **assistant IA**. Cont
 | **Environnement d'exécution** | .NET Framework 4.8+                                      |
 | **Non pris en charge** | OneNote pour Windows 10 (UWP / Microsoft Store), macOS, mobile  |
 | **Essai**         | Essai complet de 14 jours, sans carte bancaire                      |
-| **IA**            | Intégrée — 15 fournisseurs, apportez votre propre clé API           |
-| **Languages**     | 简体中文 · English · 日本語 · 한국어 · Deutsch · Français · Español · Русский |
+| **IA**            | Intégrée — 14 fournisseurs, apportez votre propre clé API           |
+| **Langues**       | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Fonctionnalités
 
@@ -40,14 +40,14 @@ La plupart des barres latérales IA vous remettent un mur de texte à copier-col
 
 - **Exécute des actions du complément, pas seulement du chat** — insère un article entièrement rendu, construit des tableaux, exécute des opérations de page (rendu, export, table des matières, largeur de page) ; les résultats des actions sont renvoyés dans la conversation pour que le modèle puisse confirmer ou se corriger.
 - **Des tableaux sur commande, avec la largeur demandée** — `insert_table` prend en charge les dispositions pleine largeur de page et **ajustées au contenu** ; le parcours IA partage le même moteur de tableaux que le basculement de largeur `Alt+W`.
-- **Apportez votre propre modèle** — 15 fournisseurs intégrés (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), Base URL personnalisée pour tout le reste. Votre clé API reste sur votre machine ; aucun serveur intermédiaire.
+- **Apportez votre propre modèle** — 14 fournisseurs intégrés (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), Base URL personnalisée pour tout le reste. Votre clé API reste sur votre machine ; aucun serveur intermédiaire.
 - **Multimodal** — collez une capture d'écran dans le chat et référencez-la avec des modèles multimodaux.
 - **Suivi de la langue** — posez votre question en français, obtenez une réponse en français ; en anglais, une réponse en anglais.
 - **Inclus dans toutes les licences** — l'essai gratuit de 14 jours et tous les niveaux payants. Ouvrez-le avec `Alt+A` ou le groupe **AI** du ruban.
 
 ### 📝 Rendu Markdown
 
-- **Rendu Markdown en temps réel** — tapez du Markdown, appuyez sur Entrée, il est formaté instantanément (WYSIWYG).
+- **Rendu Markdown instantané** — tapez `#` ou `-` puis une espace : la ligne est déjà formatée ; les autres blocs restent rendus par Entrée ou F5 (WYSIWYG).
 - **Vue double source / rendu** — basculez à tout moment entre le Markdown brut et le rendu, par page ou par paragraphe.
 - **Collez du Markdown de n'importe où** — `Ctrl+Shift+V` transforme un bloc Markdown copié depuis une page web, un document ou une réponse d'IA en une note finalisée.
 - **Coloration syntaxique du code** — coloration syntaxique pour plus de 200 langages, plus de 100 thèmes, copie en un clic.

@@ -1,8 +1,8 @@
 # HydroMark — Complemento de Markdown para OneNote con asistente de IA
 
-[English](README.md) · [简体中文](README.zh.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Soporte](SUPPORT.es.md)
+[English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · **Español** · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [Soporte](SUPPORT.es.md)
 
-**HydroMark es un complemento (add-in) de Markdown WYSIWYG para Microsoft OneNote en Windows.** Escribe Markdown en una página de OneNote, pulsa Enter y se renderiza al instante como contenido nativo de OneNote: títulos, listas, tablas, listas de tareas, bloques de código, fórmulas LaTeX y diagramas Mermaid. Sin exportaciones, sin capturas de pantalla, sin cambiar de aplicación. Desde la **v1.1.0**, un **asistente de IA** integrado escribe artículos renderizados, tablas y operaciones de página directamente en tus notas.
+**HydroMark es un complemento (add-in) de Markdown WYSIWYG para Microsoft OneNote en Windows.** Escribe Markdown en una página de OneNote, se renderiza al instante como contenido nativo de OneNote: títulos, listas, tablas, listas de tareas, bloques de código, fórmulas LaTeX y diagramas Mermaid. Sin exportaciones, sin capturas de pantalla, sin cambiar de aplicación. Desde la **v1.1.0**, un **asistente de IA** integrado escribe artículos renderizados, tablas y operaciones de página directamente en tus notas.
 
 > ⚠️ **Este es un repositorio de código abierto que contiene parte del código y la documentación del proyecto HydroMark.** También aloja anuncios del producto y comentarios de la comunidad (Issues y Discussions). Consulta [Licencia y código fuente](#licencia-y-código-fuente) más abajo.
 
@@ -10,7 +10,7 @@
 
 ## ¿Qué es HydroMark?
 
-HydroMark es un **complemento de Markdown para OneNote**: un complemento de Windows que integra un verdadero editor de Markdown dentro de Microsoft OneNote. Sigues escribiendo en los cuadernos, el lienzo y la sincronización en la nube de OneNote, pero obtienes el flujo de trabajo de Markdown que realmente quieres: escribe `## Heading`, pulsa Enter y la página muestra un título renderizado en lugar de la sintaxis sin procesar.
+HydroMark es un **complemento de Markdown para OneNote**: un complemento de Windows que integra un verdadero editor de Markdown dentro de Microsoft OneNote. Sigues escribiendo en los cuadernos, el lienzo y la sincronización en la nube de OneNote, pero obtienes el flujo de trabajo de Markdown que realmente quieres: escribe `## Heading` seguido de un espacio y la página muestra un título renderizado en lugar de la sintaxis sin procesar.
 
 Todo se renderiza con **elementos nativos propios de OneNote, no con imágenes**, así que tus notas de Markdown siguen siendo editables, se pueden buscar dentro de OneNote, están disponibles sin conexión y se sincronizan con OneNote en el teléfono, la tableta y la web. Pulsa `F8` para exportar una página de vuelta a `.md`.
 
@@ -29,8 +29,8 @@ Desde la **v1.1.0**, el complemento también incluye un **asistente de IA**. A d
 | **Entorno de ejecución** | .NET Framework 4.8+                                              |
 | **No compatible**     | OneNote para Windows 10 (UWP / Microsoft Store), macOS, móvil       |
 | **Prueba**            | Prueba completa de 14 días, sin tarjeta de crédito                  |
-| **IA**                | Integrada — 15 proveedores, usa tu propia clave de API              |
-| **Idiomas**           | 简体中文 · English · 日本語 · 한국어 · Deutsch · Français · Español · Русский |
+| **IA**                | Integrada — 14 proveedores, usa tu propia clave de API              |
+| **Idiomas**           | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Funciones
 
@@ -40,14 +40,14 @@ La mayoría de las barras laterales de IA te entregan un muro de texto para copi
 
 - **Ejecuta acciones del complemento, no solo chat** — inserta un artículo totalmente renderizado, crea tablas, ejecuta operaciones de página (renderizar, exportar, TOC, ancho de página); los resultados de las acciones se devuelven a la conversación para que el modelo pueda confirmar o corregirse a sí mismo.
 - **Tablas bajo demanda, con el ancho que pidas** — `insert_table` admite diseños de ancho de página completo y **ajustados al contenido**; la ruta de IA comparte el mismo motor de tablas que el conmutador de ancho `Alt+W`.
-- **Usa tu propio modelo** — 15 proveedores integrados (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), Base URL personalizada para cualquier otro. Tu clave de API permanece en tu equipo; sin servidor intermediario.
+- **Usa tu propio modelo** — 14 proveedores integrados (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), Base URL personalizada para cualquier otro. Tu clave de API permanece en tu equipo; sin servidor intermediario.
 - **Multimodal** — pega una captura de pantalla en el chat y referénciala con modelos multimodales.
 - **Sigue el idioma** — pregunta en chino, obtén chino; pregunta en inglés, obtén inglés.
 - **Incluido en todas las licencias** — la prueba gratuita de 14 días y todos los planes de pago. Ábrelo con `Alt+A` o desde el grupo **AI** de la cinta de opciones.
 
 ### 📝 Renderizado de Markdown
 
-- **Renderizado de Markdown en tiempo real** — escribe Markdown, pulsa Enter y ve el formato al instante (WYSIWYG).
+- **Renderizado de Markdown al escribir** — escribe `#` o `-` y luego un espacio: la línea ya está formateada; otros bloques siguen con Enter o F5 (WYSIWYG).
 - **Vista dual fuente / renderizado** — alterna entre el Markdown sin procesar y la salida renderizada en cualquier momento, por página o por párrafo.
 - **Pega Markdown desde cualquier lugar** — `Ctrl+Shift+V` convierte un bloque de Markdown copiado de una página web, un documento o una respuesta de IA en una nota terminada.
 - **Resaltado de código** — resaltado de sintaxis para más de 200 lenguajes, más de 100 temas, copia con un clic.

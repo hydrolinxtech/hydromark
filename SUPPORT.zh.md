@@ -1,6 +1,6 @@
 # HydroMark 支持 — 带 AI 的 OneNote Markdown 插件
 
-[English](README.md) · **简体中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · **支持**
+[English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · **支持**
 
 感谢使用 **HydroMark**，这是 Microsoft OneNote 的 Markdown 插件。本页面介绍如何获取插件帮助、报告缺陷或请求功能。
 
