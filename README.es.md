@@ -10,6 +10,8 @@
 
 ## ¿Qué es HydroMark?
 
+![HydroMark dentro de OneNote: la cinta HydroMark, el Markdown renderizado en la página, el panel de índice y el panel del Asistente de IA](assets/hydromark-onenote.png)
+
 HydroMark es un **complemento de Markdown para OneNote**: un complemento de Windows que integra un verdadero editor de Markdown dentro de Microsoft OneNote. Sigues escribiendo en los cuadernos, el lienzo y la sincronización en la nube de OneNote, pero obtienes el flujo de trabajo de Markdown que realmente quieres: escribe `## Heading` seguido de un espacio y la página muestra un título renderizado en lugar de la sintaxis sin procesar.
 
 Todo se renderiza con **elementos nativos propios de OneNote, no con imágenes**, así que tus notas de Markdown siguen siendo editables, se pueden buscar dentro de OneNote, están disponibles sin conexión y se sincronizan con OneNote en el teléfono, la tableta y la web. Pulsa `F8` para exportar una página de vuelta a `.md`.
@@ -33,6 +35,23 @@ Desde la **v1.1.0**, el complemento también incluye un **asistente de IA**. A d
 | **Idiomas**           | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Funciones
+
+| Función | Qué hace | Atajo |
+| --- | --- | --- |
+| 🤖 **Asistente de IA** | Escribe artículos y tablas renderizados y ejecuta acciones del complemento en la página | `Alt+A` |
+| ✍️ **Renderizado al instante** | Títulos, listas y más se formatean al escribir | `#` / `-` + Espacio |
+| 🔁 **Fuente ↔ renderizado** | Alterna entre Markdown sin procesar y salida renderizada, por página o párrafo | — |
+| 📥 **Pegar Markdown** | Convierte el Markdown copiado en una nota terminada | `Ctrl+Shift+V` |
+| 💻 **Resaltado de código** | Más de 200 lenguajes, más de 100 temas, copia con un clic | — |
+| ∑ **Matemáticas LaTeX** | Fórmulas en línea y en bloque como ecuaciones nativas de OneNote | `$…$` |
+| 📊 **Diagramas** | 26+ tipos Mermaid / ZenUML: flujo, secuencia, Gantt, mapa mental… | — |
+| ▱ **Tablas** | Conmutador ancho total ↔ ajustado al contenido que persiste | `Alt+W` |
+| ☑️ **Listas de tareas** | Casillas clicables, exportadas como `- [x]` / `- [ ]` | — |
+| ⌨️ **Comandos de barra** | Paleta de comandos con `/` para insertar bloques rápido | `/` |
+| 🖍️ **Bloques de resaltado** | Destaca visualmente las notas importantes | — |
+| 📑 **TOC y ancho de página** | Tabla de contenido automática; ancho de página manual o automático | — |
+| 🌙 **Modo oscuro** | Contenido renderizado, diálogos y barra lateral de IA siguen el tema de OneNote | — |
+| 🔄 **Importar / Exportar** | Entran y salen archivos Markdown (imágenes opcionales) | `F8` |
 
 ### 🤖 Asistente de IA — la función estrella (novedad en 1.1.0)
 
@@ -61,6 +80,17 @@ La mayoría de las barras laterales de IA te entregan un muro de texto para copi
 - **Adaptación completa al modo oscuro** — el contenido renderizado, los diálogos y la barra lateral de IA siguen el tema de OneNote.
 - **Importación / exportación fluida** — entran archivos Markdown, salen archivos Markdown (imágenes opcionales).
 
+## 🚀 Primeros pasos
+
+1. **Descargar** el instalador multilenguaje único desde la[página de descarga](https://hydromark.hydrolinx.top/download) (requiere Windows 7+ y OneNote **de escritorio** 2013+).
+2. **Ejecutar** el instalador — se adapta automáticamente a OneNote de 32 y 64 bits, así que no hay que elegir la versión x86 / x64.
+3. **Abrir OneNote** y localizar la pestaña **HydroMark** en la cinta.
+4. **Escribir Markdown** — `## ` y Espacio para un título, `- ` y Espacio para una lista; los demás bloques se renderizan con Enter o `F5`.
+5. **Configura primero la IA** — abre **Ajustes → Modelo de IA**, elige un proveedor e introduce tu clave de API (usa tu propia clave; 14 proveedores integrados). Luego abre el **asistente de IA** con `Alt+A` (o el grupo **AI** de la cinta) y deja que escriba artículos y tablas directamente en la página.
+6. **Exportar** la página actual a `.md` con `F8`.
+
+La prueba completa de 14 días comienza automáticamente, sin tarjeta de crédito. Para la guía completa, consulta la[documentación](https://hydromark.hydrolinx.top/documentation).
+
 ## Preguntas frecuentes
 
 **¿Existe un complemento de Markdown para OneNote?**
@@ -88,6 +118,7 @@ Hay una prueba completa de 14 días. Después, las licencias son por dispositivo
 
 - Sitio web (inglés): https://hydromark.hydrolinx.top
 - Sitio web (中文): https://hydromark.hydrolinx.cn
+- Descarga: https://hydromark.hydrolinx.top/download
 - Documentación: https://hydromark.hydrolinx.top/documentation
 - Precios: https://hydromark.hydrolinx.top/pricing
 - Registro de cambios: https://hydromark.hydrolinx.top/changelog

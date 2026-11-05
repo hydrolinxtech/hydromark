@@ -10,6 +10,8 @@
 
 ## Qu'est-ce que HydroMark ?
 
+![HydroMark dans OneNote : le ruban HydroMark, le Markdown rendu sur la page, le panneau de table des matières et le panneau Assistant IA](assets/hydromark-onenote.png)
+
 HydroMark est un **complément Markdown pour OneNote** : un complément Windows qui intègre un véritable éditeur Markdown dans Microsoft OneNote. Vous continuez à écrire dans les bloc-notes, le canevas et la synchronisation cloud de OneNote, mais vous obtenez le flux de travail Markdown que vous voulez vraiment — tapez `## Heading` puis une espace, et la page affiche un titre rendu au lieu de la syntaxe brute.
 
 Tout est rendu avec les **éléments natifs de OneNote, et non des images**, de sorte que vos notes Markdown restent modifiables, consultables dans OneNote, disponibles hors ligne et synchronisées avec OneNote sur téléphone, tablette et web. Appuyez sur `F8` pour exporter une page vers `.md`.
@@ -33,6 +35,23 @@ Depuis la **v1.1.0**, le complément inclut également un **assistant IA**. Cont
 | **Langues**       | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Fonctionnalités
+
+| Fonctionnalité          | Ce qu'elle fait                                                    | Raccourci       |
+| ----------------------- | ------------------------------------------------------------------ | --------------- |
+| 🤖 **Assistant IA**     | Écrit articles, tableaux & exécute les actions du complément dans la page | `Alt+A`    |
+| ✍️ **Rendu instantané** | Titres, listes et plus se formatent pendant la frappe              | `#` / `-` + Espace |
+| 🔁 **Source ↔ rendu**   | Bascule entre Markdown brut et rendu, par page ou par paragraphe   | —               |
+| 📥 **Coller Markdown**  | Transforme un Markdown copié en note finie                         | `Ctrl+Shift+V`  |
+| 💻 **Coloration du code**| Plus de 200 langages, 100+ thèmes, copie en un clic                | —               |
+| ∑ **Mathématiques LaTeX**| Formules en ligne & en bloc comme équations OneNote natives       | `$…$`           |
+| 📊 **Diagrammes**       | 26+ types Mermaid / ZenUML : flux, séquence, Gantt, carte mentale… | —               |
+| ▱ **Tableaux**          | Bascule pleine largeur ↔ ajusté au contenu, conservée              | `Alt+W`         |
+| ☑️ **Listes de tâches** | Cases cliquables, export en `- [x]` / `- [ ]`                       | —               |
+| ⌨️ **Commandes slash**  | Palette de commandes pour insérer des blocs rapidement             | `/`             |
+| 🖍️ **Blocs de mise en évidence** | Met en avant visuellement les notes importantes            | —               |
+| 📑 **Sommaire & largeur**| Table des matières auto ; largeur manuelle / auto                | —               |
+| 🌙 **Mode sombre**      | Contenu, boîtes de dialogue & barre IA suivent OneNote             | —               |
+| 🔄 **Import / Export**  | Fichiers Markdown entrants et sortants (images optionnelles)        | `F8`            |
 
 ### 🤖 Assistant IA — la fonctionnalité phare (nouveau dans la 1.1.0)
 
@@ -61,6 +80,17 @@ La plupart des barres latérales IA vous remettent un mur de texte à copier-col
 - **Adaptation complète au mode sombre** — le contenu rendu, les boîtes de dialogue et la barre latérale IA suivent tous le thème de OneNote.
 - **Import / export transparent** — fichiers Markdown en entrée, fichiers Markdown en sortie (images facultatives).
 
+## 🚀 Pour commencer
+
+1. **Téléchargez** l'installateur multilingue unique depuis [https://hydromark.hydrolinx.top/download](https://hydromark.hydrolinx.top/download) (nécessite Windows 7+ et OneNote **bureau** 2013+).
+2. **Lancez** l'installateur — il s'adapte automatiquement à OneNote 32 bits et 64 bits, il n'y a pas de package x86 / x64 séparé à choisir.
+3. **Ouvrez OneNote** et repérez l'onglet **HydroMark** dans le ruban.
+4. **Écrivez du Markdown** — tapez `## ` puis une espace pour un titre, `- ` puis une espace pour une liste ; les autres blocs se rendent avec Entrée ou `F5`.
+5. **Configurez d'abord l'IA** — ouvrez **Paramètres → Modèle IA**, choisissez un fournisseur et saisissez votre clé API (clé à apporter soi-même ; 14 fournisseurs intégrés). Ouvrez ensuite **l'assistant IA** avec `Alt+A` (ou le groupe **AI** du ruban) et laissez-le écrire articles et tableaux directement dans la page.
+6. **Exportez** la page courante vers `.md` avec `F8`.
+
+Un essai complet de 14 jours démarre automatiquement — sans carte bancaire. Pour le guide complet, voir la [documentation](https://hydromark.hydrolinx.top/documentation).
+
 ## Questions fréquentes
 
 **Existe-t-il un complément Markdown pour OneNote ?**
@@ -88,6 +118,7 @@ Il existe un essai complet de 14 jours. Ensuite, les licences sont par appareil 
 
 - Site web (anglais) : https://hydromark.hydrolinx.top
 - Site web (中文) : https://hydromark.hydrolinx.cn
+- Téléchargement : https://hydromark.hydrolinx.top/download
 - Documentation : https://hydromark.hydrolinx.top/documentation
 - Tarifs : https://hydromark.hydrolinx.top/pricing
 - Journal des modifications : https://hydromark.hydrolinx.top/changelog

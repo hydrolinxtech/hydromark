@@ -10,6 +10,8 @@
 
 ## HydroMark란 무엇인가요?
 
+![OneNote 안에서 실행 중인 HydroMark: HydroMark 리본, 페이지의 렌더링된 Markdown, 목 패널, AI 어시스턴트 패널](assets/hydromark-onenote.png)
+
 HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 실제 Markdown 편집기를 넣어 주는 Windows 애드인입니다. OneNote의 노트북, 캔버스, 클라우드 동기화를 그대로 사용하면서도 원하는 Markdown 워크플로를 얻을 수 있습니다. `## Heading`을 입력한 뒤 공백을 누르면 페이지에 원시 문법 대신 렌더링된 제목이 표시됩니다.
 
 모든 내용은 **이미지가 아닌 OneNote 자체의 기본 요소**로 렌더링되므로 Markdown 노트는 계속 편집 가능하고, OneNote 안에서 검색 가능하며, 오프라인에서 사용할 수 있고, 휴대폰·태블릿·웹의 OneNote와 동기화됩니다. `F8`을 눌러 페이지를 다시 `.md`로 내보낼 수 있습니다.
@@ -20,19 +22,36 @@ HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 �
 
 ## 빠른 정보
 
-| 항목              | 세부 정보                                                              |
-| ----------------- | ------------------------------------------------------------------- |
-| **제품**          | HydroMark — AI 어시스턴트가 포함된 OneNote Markdown 애드인(addin)     |
-| **범주**          | OneNote 플러그인 / OneNote 확장 / Office COM 애드인                   |
-| **플랫폼**        | Windows 7 이상                                                        |
-| **호스트 앱**     | OneNote **데스크톱** 2013+ (2016 / 2019 / 2021 / Microsoft 365)       |
-| **런타임**        | .NET Framework 4.8+                                                   |
-| **지원하지 않음** | OneNote for Windows 10 (UWP / Microsoft Store), macOS, 모바일         |
-| **체험**          | 14일 전체 기능 체험, 신용카드 불필요                                  |
-| **AI**            | 내장 — 14개 제공업체, 자체 API 키 사용                                |
-| **언어**          | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
+| 항목          | 세부 정보                                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------------------- |
+| **제품**      | HydroMark — AI 어시스턴트가 포함된 OneNote Markdown 애드인(addin)                                                     |
+| **범주**      | OneNote 플러그인 / OneNote 확장 / Office COM 애드인                                                                |
+| **플랫폼**     | Windows 7 이상                                                                                              |
+| **호스트 앱**   | OneNote **데스크톱** 2013+ (2016 / 2019 / 2021 / Microsoft 365)                                               |
+| **런타임**     | .NET Framework 4.8+                                                                                       |
+| **지원하지 않음** | OneNote for Windows 10 (UWP / Microsoft Store), macOS, 모바일                                                |
+| **체험**      | 14일 전체 기능 체험, 신용카드 불필요                                                                                    |
+| **AI**      | 내장 — 14개 제공업체, 자체 API 키 사용                                                                                |
+| **언어**      | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ 기능
+
+| 기능 | 설명 | 단축키 |
+| --- | --- | --- |
+| 🤖 **AI 어시스턴트** | 렌더링된 문서와 표를 페이지에 직접 작성하고 애드인 작업도 실행 | `Alt+A` |
+| ✍️ **즉시 렌더링** | 제목·목록 등을 입력하면 바로 서식 적용 | `#` / `-` + 공백 |
+| 🔁 **소스 ↔ 렌더링** | 원시 Markdown과 렌더링 결과를 페이지 또는 단락 단위로 전환 | — |
+| 📥 **Markdown 붙여넣기** | 복사한 Markdown을 완성된 노트로 변환 | `Ctrl+Shift+V` |
+| 💻 **코드 하이라이팅** | 200개 이상 언어, 100개 이상 테마, 원클릭 복사 | — |
+| ∑ **LaTeX 수식** | 인라인·블록 수식을 OneNote 기본 수식으로 렌더링 | `$…$` |
+| 📊 **다이어그램** | 26종 이상의 Mermaid / ZenUML: 순서도, 시퀀스, 간트, 마인드맵… | — |
+| ▱ **표** | 전체 너비 ↔ 내용 맞춤을 전환하며 상태 유지 | `Alt+W` |
+| ☑️ **작업 목록** | 체크박스 클릭 가능, `- [x]` / `- [ ]`로 내보내기 | — |
+| ⌨️ **슬래시 명령** | `/`를 눌러 명령 팔레트를 열고 블록을 빠르게 삽입 | `/` |
+| 🖍️ **강조 블록** | 중요한 노트를 시각적으로 강조 | — |
+| 📑 **페이지 목차 및 너비** | 목차 자동 생성; 페이지 너비 수동·자동 조정 | — |
+| 🌙 **다크 모드** | 렌더링 콘텐츠, 대화 상자, AI 사이드바가 OneNote 테마를 따름 | — |
+| 🔄 **가져오기 / 내보내기** | Markdown 파일로 들여오고 내보냄(이미지 선택 사항) | `F8` |
 
 ### 🤖 AI 어시스턴트 — 핵심 기능 (1.1.0 신규)
 
@@ -61,6 +80,17 @@ HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 �
 - **완전한 다크 모드 대응** — 렌더링된 콘텐츠, 대화 상자, AI 사이드바가 모두 OneNote 테마를 따릅니다.
 - **원활한 가져오기 / 내보내기** — Markdown 파일로 들여오고 내보냅니다(이미지 선택 사항).
 
+## 🚀 시작하기
+
+1. **다운로드** — 단일 다국어 설치 프로그램을[다운로드 페이지](https://hydromark.hydrolinx.top/download)에서 받으세요(Windows 7+ 및 OneNote **데스크톱** 2013+ 필요).
+2. **실행** — 설치 프로그램이 32비트 및 64비트 OneNote에 자동으로 맞춰지므로 x86 / x64 버전을 고를 필요가 없습니다.
+3. **OneNote 열기** — 리본에 **HydroMark** 탭이 나타납니다.
+4. **Markdown 작성** — `## ` 뒤에 공백을 누르면 제목, `- ` 뒤에 공백을 누르면 목록; 나머지 블록은 Enter 또는 `F5`로 렌더링됩니다.
+5. **먼저 AI 설정** — 「설정 → AI 모델」을 열고 공급업체를 선택한 뒤 API 키를 입력하세요(자체 키 사용, 14개 공급업체 내장). 설정 후 `Alt+A`(또는 리본의 **AI** 그룹)로 **AI 어시스턴트**를 열어 문서와 표를 페이지에 직접 작성합니다.
+6. **내보내기** — 현재 페이지를 `F8`로 `.md`로 내보냅니다.
+
+14일 전체 기능 체험이 자동으로 시작되며 신용카드가 필요 없습니다. 자세한 안내는[문서](https://hydromark.hydrolinx.top/documentation)를 참고하세요.
+
 ## 자주 묻는 질문
 
 **OneNote용 Markdown 애드인이 있나요?**
@@ -88,6 +118,7 @@ HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 �
 
 - 웹사이트(영어): https://hydromark.hydrolinx.top
 - 웹사이트(中文): https://hydromark.hydrolinx.cn
+- 다운로드: https://hydromark.hydrolinx.top/download
 - 문서: https://hydromark.hydrolinx.top/documentation
 - 가격: https://hydromark.hydrolinx.top/pricing
 - 변경 로그: https://hydromark.hydrolinx.top/changelog

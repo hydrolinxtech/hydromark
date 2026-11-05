@@ -10,6 +10,8 @@
 
 ## HydroMark 是什么？
 
+![HydroMark 在 OneNote 中运行的界面：HydroMark 选项卡、页面上渲染好的 Markdown、目录面板与 AI 助手面板](assets/hydromark-onenote.png)
+
 HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown 编辑器放进 Microsoft OneNote 的 Windows 插件。你继续使用 OneNote 的笔记本、画布和云同步，同时获得你真正想要的 Markdown 工作流——输入 `## Heading` 再敲空格，页面就会显示渲染后的标题，而不是原始语法。
 
 所有内容都以 **OneNote 原生元素渲染，而非图片**，因此你的 Markdown 笔记始终保持可编辑、可在 OneNote 内搜索、可离线使用，并与手机、平板和网页版 OneNote 同步。按 `F8` 可将页面导出回 `.md`。
@@ -33,6 +35,23 @@ HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown �
 | **语言**          | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ 功能
+
+| 功能 | 说明 | 快捷键 |
+| --- | --- | --- |
+| 🤖 **AI 助手** | 直接在页面中写入渲染后的文章、表格并执行插件操作 | `Alt+A` |
+| ✍️ **即时渲染** | 标题、列表等输入即成型 | `#` / `-` + 空格 |
+| 🔁 **源码 ↔ 渲染** | 随时在原始 Markdown 与渲染结果间切换，可按页面或段落 | — |
+| 📥 **粘贴 Markdown** | 将复制的 Markdown 片段变成一篇完成的笔记 | `Ctrl+Shift+V` |
+| 💻 **代码高亮** | 支持 200+ 种语言、100+ 种主题，一键复制 | — |
+| ∑ **LaTeX 公式** | 行内与块级公式渲染为 OneNote 原生公式 | `$…$` |
+| 📊 **图表** | 26+ 种 Mermaid / ZenUML 类型：流程、时序、甘特、思维导图…… | — |
+| ▱ **表格** | 整页宽度 ↔ 内容自适应切换，状态保留 | `Alt+W` |
+| ☑️ **任务列表** | 复选框可点击，导出为 `- [x]` / `- [ ]` | — |
+| ⌨️ **斜杠命令** | 命令面板快速插入内容块 | `/` |
+| 🖍️ **高亮块** | 以视觉方式突出重要笔记 | — |
+| 📑 **页面目录与宽度** | 自动生成目录；手动或自动调整页面宽度 | — |
+| 🌙 **深色模式** | 渲染内容、对话框与 AI 侧边栏均跟随 OneNote | — |
+| 🔄 **导入 / 导出** | Markdown 文件进、Markdown 文件出（图片可选） | `F8` |
 
 ### 🤖 AI 助手 — 主打功能（1.1.0 新增）
 
@@ -61,6 +80,17 @@ HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown �
 - **完整的深色模式适配** — 渲染内容、对话框和 AI 侧边栏均跟随 OneNote 主题。
 - **无缝导入 / 导出** — Markdown 文件进，Markdown 文件出（图片可选）。
 
+## 🚀 快速开始
+
+1. **下载** 单一多语言安装程序（[下载页](https://hydromark.hydrolinx.cn/download)，需 Windows 7+ 与 OneNote **桌面版** 2013+）。
+2. **运行** 安装程序——它会自动适配 32 位与 64 位 OneNote，无需选择 x86 / x64 版本。
+3. **打开 OneNote**，在功能区中找到 **HydroMark** 选项卡。
+4. **书写 Markdown** —— 输入 `## ` 再敲空格得到标题，`- ` 再敲空格得到列表；其他区块按 Enter 或 `F5` 渲染。
+5. **先配置 AI**：打开「设置 → AI 大模型」，选择服务商并填入你的 API 密钥（自带密钥，内置 14 家服务商）。配置好后按 `Alt+A`（或功能区中的 **AI** 组）打开 **AI 助手**，让它把文章和表格直接写进页面。
+6. **导出** 当前页面为 `.md`：按 `F8`。
+
+14 天全功能试用自动开始，无需信用卡。完整指南请见[文档](https://hydromark.hydrolinx.cn/documentation)。
+
 ## 常见问题
 
 **OneNote 有 Markdown 插件吗？**
@@ -88,6 +118,7 @@ HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown �
 
 - 中文站：https://hydromark.hydrolinx.cn
 - 国际站（English）：https://hydromark.hydrolinx.top
+- 下载：https://hydromark.hydrolinx.top/download
 - 文档：https://hydromark.hydrolinx.cn/documentation
 - 定价：https://hydromark.hydrolinx.cn/pricing
 - 更新日志：https://hydromark.hydrolinx.cn/changelog
