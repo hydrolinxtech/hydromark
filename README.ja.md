@@ -1,6 +1,22 @@
-# HydroMark — AI アシスタントを備えた OneNote Markdown アドイン
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**OneNote Markdown アドイン、AI アシスタント、生産性ツール**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![OneNote 内で動作する HydroMark：HydroMark リボン、ページ上のレンダリング済み Markdown、目次パネル、AI アシスタントパネル](assets/hydromark-onenote.png)
+
+詳細はこちらの[ドキュメント](https://hydromark.hydrolinx.top/documentation)をご確認ください
 
 [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · **日本語** · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [サポート](SUPPORT.ja.md)
+
+</div>
+
+# HydroMark — AI アシスタントを備えた OneNote Markdown アドイン
 
 **HydroMark は、Windows 版 Microsoft OneNote 向けの WYSIWYG Markdown アドインです。** OneNote ページに Markdown を入力すると、その場で見出し、リスト、表、タスクリスト、コードブロック、LaTeX 数式、Mermaid 図が OneNote ネイティブの内容として瞬時にレンダリングされます。エクスポートもスクリーンショットも、アプリの切り替えも不要です。**v1.1.0** 以降、内蔵の **AI アシスタント**がレンダリング済みの記事や表、ページ操作をノートに直接書き込みます。
 
@@ -9,8 +25,6 @@
 ---
 
 ## HydroMark とは？
-
-![OneNote 内で動作する HydroMark：HydroMark リボン、ページ上のレンダリング済み Markdown、目次パネル、AI アシスタントパネル](assets/hydromark-onenote.png)
 
 HydroMark は **OneNote Markdown アドイン**です。Microsoft OneNote の中に本物の Markdown エディターを組み込む Windows アドインです。OneNote のノートブック、キャンバス、クラウド同期はそのままに、本当に欲しかった Markdown ワークフローを手に入れられます。`## Heading` と入力してスペースを打つと、生の構文ではなくレンダリングされた見出しがページに表示されます。
 

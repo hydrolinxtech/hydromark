@@ -1,6 +1,22 @@
-# HydroMark — إضافة Markdown لـ OneNote مع مساعد ذكاء اصطناعي
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**إضافة Markdown لـ OneNote، ومساعد ذكاء اصطناعي، وأداة إنتاجية**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![HydroMark داخل OneNote: شريط HydroMark، وMarkdown المعروض في الصفحة، ولوحة الفهرس، ولوحة مساعد الذكاء الاصطناعي](assets/hydromark-onenote.png)
+
+لمزيد من المعلومات، يرجى الاطلاع على [التوثيق](https://hydromark.hydrolinx.top/documentation)
 
 [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · **العربية** · [الدعم](SUPPORT.ar.md)
+
+</div>
+
+# HydroMark — إضافة Markdown لـ OneNote مع مساعد ذكاء اصطناعي
 
 **HydroMark هو إضافة (add-in) لتحرير Markdown بما تراه هو ما تحصل عليه، تعمل داخل Microsoft OneNote على نظام Windows.** اكتب Markdown على صفحة OneNote لتُعرض فور الكتابة كمحتوى أصلي في OneNote — العناوين والقوائم والجداول وقوائم المهام وكتل الشيفرة ومعادلات LaTeX ومخططات Mermaid. بلا تصدير ولا لقطات شاشة ولا تبديل بين التطبيقات. منذ **الإصدار 1.1.0** يكتب **المساعد المدمج للذكاء الاصطناعي** المقالات المعروضة والجداول وعمليات الصفحة مباشرة في ملاحظاتك.
 
@@ -9,8 +25,6 @@
 ---
 
 ## ما هو HydroMark؟
-
-![HydroMark داخل OneNote: شريط HydroMark، وMarkdown المعروض في الصفحة، ولوحة الفهرس، ولوحة مساعد الذكاء الاصطناعي](assets/hydromark-onenote.png)
 
 HydroMark هو **إضافة Markdown لـ OneNote**: إضافة على Windows تضع محرر Markdown حقيقيًا داخل Microsoft OneNote. تبقى على الكتابة في دفاتر ملاحظاتك ومساحة العمل والمزامنة السحابية كما هي، لكنك تحصل على سير عمل Markdown الذي تريده فعلًا — اكتب `## Heading` ثم مسافة لتظهر لك صفحة بعنوان معروض بدل الصيغة الخام.
 

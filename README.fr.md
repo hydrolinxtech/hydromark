@@ -1,6 +1,22 @@
-# HydroMark — complément Markdown pour OneNote avec un assistant IA
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**Complément Markdown pour OneNote, assistant IA et outil de productivité**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![HydroMark dans OneNote : le ruban HydroMark, le Markdown rendu sur la page, le panneau de table des matières et le panneau Assistant IA](assets/hydromark-onenote.png)
+
+Pour plus d'informations, consultez la [Documentation](https://hydromark.hydrolinx.top/documentation)
 
 [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · **Français** · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [Support](SUPPORT.fr.md)
+
+</div>
+
+# HydroMark — complément Markdown pour OneNote avec un assistant IA
 
 **HydroMark est un complément (add-in) Markdown WYSIWYG pour Microsoft OneNote sous Windows.** Écrivez du Markdown sur une page OneNote, dès la frappe, il est rendu instantanément en contenu OneNote natif — titres, listes, tableaux, listes de tâches, blocs de code, formules LaTeX et diagrammes Mermaid. Aucun export, aucune capture d'écran, aucun changement d'application. Depuis la **v1.1.0**, un **assistant IA** intégré écrit des articles rendus, des tableaux et des opérations de page directement dans vos notes.
 
@@ -9,8 +25,6 @@
 ---
 
 ## Qu'est-ce que HydroMark ?
-
-![HydroMark dans OneNote : le ruban HydroMark, le Markdown rendu sur la page, le panneau de table des matières et le panneau Assistant IA](assets/hydromark-onenote.png)
 
 HydroMark est un **complément Markdown pour OneNote** : un complément Windows qui intègre un véritable éditeur Markdown dans Microsoft OneNote. Vous continuez à écrire dans les bloc-notes, le canevas et la synchronisation cloud de OneNote, mais vous obtenez le flux de travail Markdown que vous voulez vraiment — tapez `## Heading` puis une espace, et la page affiche un titre rendu au lieu de la syntaxe brute.
 

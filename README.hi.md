@@ -1,6 +1,22 @@
-# HydroMark — AI असिस्टेंट वाला OneNote Markdown एड-इन
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**OneNote Markdown एड-इन, AI असिस्टेंट और उत्पादकता टूल**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![OneNote के अंदर HydroMark: HydroMark रिबन, पेज पर रेंडर किया गया Markdown, विषय-सूची पैनल और AI सहायक पैनल](assets/hydromark-onenote.png)
+
+अधिक जानकारी के लिए हमारा [दस्तावेज़ीकरण](https://hydromark.hydrolinx.top/documentation) देखें
 
 [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · **हिन्दी** · [العربية](README.ar.md) · [सहायता](SUPPORT.hi.md)
+
+</div>
+
+# HydroMark — AI असिस्टेंट वाला OneNote Markdown एड-इन
 
 **HydroMark Windows पर Microsoft OneNote के लिए एक WYSIWYG Markdown एड-इन (addin) है।** OneNote पृष्ठ पर Markdown लिखते ही वह तुरंत OneNote की मूल सामग्री में बदल जाता है — शीर्षक, सूचियाँ, तालिकाएँ, कार्य-सूचियाँ, कोड ब्लॉक, LaTeX सूत्र और Mermaid आरेख। न निर्यात, न स्क्रीनशॉट, न ऐप बदलना। **v1.1.0** से अंतर्निहित **AI असिस्टेंट** रेंडर किए हुए लेख, तालिकाएँ और पृष्ठ-कार्य सीधे आपके नोट्स में लिख देता है।
 
@@ -9,8 +25,6 @@
 ---
 
 ## HydroMark क्या है?
-
-![OneNote के अंदर HydroMark: HydroMark रिबन, पेज पर रेंडर किया गया Markdown, विषय-सूची पैनल और AI सहायक पैनल](assets/hydromark-onenote.png)
 
 HydroMark एक **OneNote Markdown एड-इन** है: Windows के लिए एक एड-इन जो असली Markdown संपादक Microsoft OneNote के अंदर ले आता है। आप OneNote की नोटबुक, कैनवस और क्लाउड सिंक में ही लिखते रहते हैं, पर आपको वह Markdown वर्कफ़्लो मिलता है जो आपको सच में चाहिए — `## Heading` लिखकर स्पेस दबाइए, और पृष्ठ कच्चे सिंटैक्स के बजाय रेंडर किया हुआ शीर्षक दिखाता है।
 

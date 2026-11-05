@@ -1,6 +1,22 @@
-# HydroMark — 內建 AI 助理的 OneNote Markdown 外掛
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**OneNote Markdown 外掛、AI 助理與效率工具**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![HydroMark 在 OneNote 中執行的介面：HydroMark 索引標籤、頁面上渲染完成的 Markdown、目錄面板與 AI 助理面板](assets/hydromark-onenote.png)
+
+更多資訊請查閱我們的[文件](https://hydromark.hydrolinx.cn/documentation)
 
 [English](README.md) · [简体中文](README.zh.md) · **繁體中文** · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [支援](SUPPORT.zh-TW.md)
+
+</div>
+
+# HydroMark — 內建 AI 助理的 OneNote Markdown 外掛
 
 **HydroMark 是一款面向 Windows 上 Microsoft OneNote 的所見即所得 Markdown 外掛（add-in）。** 在 OneNote 頁面上書寫 Markdown，輸入即渲染為 OneNote 原生內容（`#` 加空格成標題、`-` 加空格成清單）——標題、清單、表格、工作清單、程式碼區塊、LaTeX 公式與 Mermaid 圖表。無需匯出、無需螢幕擷取、無需切換應用程式。自 **v1.1.0** 起，內建的 **AI 助理**可將渲染後的文章、表格與頁面操作直接寫入你的筆記。
 
@@ -9,8 +25,6 @@
 ---
 
 ## HydroMark 是什麼？
-
-![HydroMark 在 OneNote 中執行的介面：HydroMark 索引標籤、頁面上渲染完成的 Markdown、目錄面板與 AI 助理面板](assets/hydromark-onenote.png)
 
 HydroMark 是一款 **OneNote Markdown 外掛**：一個把真正的 Markdown 編輯器放進 Microsoft OneNote 的 Windows 外掛。你繼續使用 OneNote 的筆記本、畫布與雲端同步，同時獲得你真正想要的 Markdown 工作流——輸入 `## Heading` 再敲空格，頁面就會顯示渲染後的標題，而不是原始語法。
 

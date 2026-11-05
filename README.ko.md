@@ -1,6 +1,22 @@
-# HydroMark — AI 어시스턴트가 포함된 OneNote Markdown 애드인
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**OneNote Markdown 애드인, AI 어시스턴트, 생산성 도구**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![OneNote 안에서 실행 중인 HydroMark: HydroMark 리본, 페이지의 렌더링된 Markdown, 목 패널, AI 어시스턴트 패널](assets/hydromark-onenote.png)
+
+자세한 내용은 [문서](https://hydromark.hydrolinx.top/documentation)를 참고하세요
 
 [English](README.md) · [简体中文](README.zh.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · **한국어** · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [지원](SUPPORT.ko.md)
+
+</div>
+
+# HydroMark — AI 어시스턴트가 포함된 OneNote Markdown 애드인
 
 **HydroMark는 Windows용 Microsoft OneNote를 위한 WYSIWYG Markdown 애드인(addin)입니다.** OneNote 페이지에 Markdown을 작성하면(`#`+공백=제목, `-`+공백=글머리) 제목, 목록, 표, 작업 목록, 코드 블록, LaTeX 수식, Mermaid 다이어그램이 기본 OneNote 콘텐츠로 즉시 렌더링됩니다. 내보내기나 스크린샷, 앱 전환도 필요 없습니다. **v1.1.0**부터는 내장 **AI 어시스턴트**가 렌더링된 문서, 표, 페이지 작업을 노트에 바로 작성합니다.
 
@@ -9,8 +25,6 @@
 ---
 
 ## HydroMark란 무엇인가요?
-
-![OneNote 안에서 실행 중인 HydroMark: HydroMark 리본, 페이지의 렌더링된 Markdown, 목 패널, AI 어시스턴트 패널](assets/hydromark-onenote.png)
 
 HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 실제 Markdown 편집기를 넣어 주는 Windows 애드인입니다. OneNote의 노트북, 캔버스, 클라우드 동기화를 그대로 사용하면서도 원하는 Markdown 워크플로를 얻을 수 있습니다. `## Heading`을 입력한 뒤 공백을 누르면 페이지에 원시 문법 대신 렌더링된 제목이 표시됩니다.
 

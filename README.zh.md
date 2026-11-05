@@ -1,6 +1,22 @@
-# HydroMark — 带 AI 助手的 OneNote Markdown 插件
+<div align="center">
+
+<img src="assets/hydromark-logo.png" alt="HydroMark" width="520" />
+
+**OneNote Markdown 插件、AI 助手与效率工具**
+
+[![Release](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.hydromark.hydrolinx.top%2Fapi%2Fversion&query=%24.version&label=Release&color=2ea44f)](https://hydromark.hydrolinx.top/download)
+
+[![X](https://img.shields.io/badge/X-@hydrolinxtech-000000?logo=x&logoColor=white)](https://x.com/hydrolinxtech) [![Product Hunt](https://img.shields.io/badge/Product%20Hunt-@hydrolinx-da7651?logo=producthunt&logoColor=white)](https://www.producthunt.com/@hydrolinx) [![YouTube](https://img.shields.io/badge/YouTube-@hydrolinxtechglobal-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/@hydrolinxtechglobal) [![Instagram](https://img.shields.io/badge/Instagram-hydrolinx.top-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/hydrolinx.top/)
+
+![HydroMark 在 OneNote 中运行的界面：HydroMark 选项卡、页面上渲染好的 Markdown、目录面板与 AI 助手面板](assets/hydromark-onenote.png)
+
+更多信息请查阅我们的[文档](https://hydromark.hydrolinx.cn/documentation)
 
 [English](README.md) · **简体中文** · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Español](README.es.md) · [Português](README.pt.md) · [Русский](README.ru.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [हिन्दी](README.hi.md) · [العربية](README.ar.md) · [支持](SUPPORT.zh.md)
+
+</div>
+
+# HydroMark — 带 AI 助手的 OneNote Markdown 插件
 
 **HydroMark 是一款面向 Windows 上 Microsoft OneNote 的所见即所得 Markdown 插件。** 在 OneNote 页面上书写 Markdown，输入即渲染为 OneNote 原生内容（`#` 加空格成标题、`-` 加空格成列表）——标题、列表、表格、任务列表、代码块、LaTeX 公式与 Mermaid 图表。无需导出、无需截图、无需切换应用。自 **v1.1.0** 起，内置的 **AI 助手**可将渲染后的文章、表格和页面操作直接写入你的笔记。
 
@@ -9,8 +25,6 @@
 ---
 
 ## HydroMark 是什么？
-
-![HydroMark 在 OneNote 中运行的界面：HydroMark 选项卡、页面上渲染好的 Markdown、目录面板与 AI 助手面板](assets/hydromark-onenote.png)
 
 HydroMark 是一款 **OneNote Markdown 插件**：一个把真正的 Markdown 编辑器放进 Microsoft OneNote 的 Windows 插件。你继续使用 OneNote 的笔记本、画布和云同步，同时获得你真正想要的 Markdown 工作流——输入 `## Heading` 再敲空格，页面就会显示渲染后的标题，而不是原始语法。
 
