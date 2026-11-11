@@ -107,26 +107,37 @@ O teste completo de 14 dias inicia automaticamente, sem cartão de crédito. Par
 
 ## Perguntas frequentes
 
-**Existe um complemento de Markdown para o OneNote?**
-Sim — o HydroMark é um complemento de Markdown (add-in) criado especificamente para o Microsoft OneNote de ambiente de trabalho no Windows.
+**Q: Existe um complemento de Markdown para o OneNote?**
 
-**Posso usar IA para escrever notas no OneNote?**
-Sim. O HydroMark inclui um assistente de IA que insere artigos e tabelas de Markdown renderizados diretamente na página atual do OneNote e pode acionar operações do complemento como renderizar, exportar ou gerar índice.
+**A:** Sim. O HydroMark é um complemento de Markdown (add-in) criado especificamente para o Microsoft OneNote de ambiente de trabalho no Windows.
 
-**O HydroMark funciona com o OneNote para Windows 10, Mac ou mobile?**
-Não. O HydroMark suporta o OneNote de **ambiente de trabalho** 2013 e posteriores (2016 / 2019 / 2021 / Microsoft 365) no Windows 7+. A versão UWP / Microsoft Store do OneNote, macOS e mobile **não** são suportados.
+**Q: Posso usar IA para escrever notas no OneNote?**
 
-**O HydroMark é um plugin do OneNote ou uma aplicação separada?**
-É um complemento do OneNote, não uma aplicação de notas independente. Instala-se no OneNote e adiciona um separador **HydroMark** à faixa de opções; as suas notas continuam nos seus cadernos.
+**A:** Sim. O HydroMark inclui um assistente de IA que insere artigos e tabelas de Markdown renderizados diretamente na página atual do OneNote e pode acionar operações do complemento como renderizar, exportar ou gerar índice.
 
-**O conteúdo em Markdown mantém-se nativo no OneNote?**
-Sim. A renderização usa elementos nativos do OneNote em vez de imagens, pelo que as notas permanecem editáveis, pesquisáveis e sincronizáveis entre clientes do OneNote. As páginas podem ser exportadas para `.md`.
+**Q: Posso colar uma imagem e perguntar à IA sobre ela?**
 
-**Como instalo?**
-Transfira o instalador multilíngue único a partir do site, execute-o e abra o OneNote — aparece um separador **HydroMark** na faixa de opções. O instalador adapta-se automaticamente ao OneNote de 32 e de 64 bits.
+**A:** Sim. Copie uma imagem ou tire um print e pressione Ctrl+V na caixa do assistente de IA para perguntar sobre ela; é possível anexar várias na mesma pergunta. É preciso um modelo com entrada de imagens; se o provedor selecionado não suportar, o HydroMark avisa. As imagens vão para o provedor com a sua própria chave de API.
 
-**É gratuito?**
-Há 14 dias de experimentação com todas as funcionalidades. Depois, as licenças são por dispositivo (email + chave): planos Individual e Família, Básico e Pro, vitalício ou anual.
+**Q: O HydroMark funciona com o OneNote para Windows 10, Mac ou mobile?**
+
+**A:** Não. O HydroMark suporta o OneNote de **ambiente de trabalho** 2013 e posteriores (2016 / 2019 / 2021 / Microsoft 365) no Windows 7+. A versão UWP / Microsoft Store do OneNote, macOS e mobile **não** são suportados.
+
+**Q: O HydroMark é um plugin do OneNote ou uma aplicação separada?**
+
+**A:** É um complemento do OneNote, não uma aplicação de notas independente. Instala-se no OneNote e adiciona um separador **HydroMark** à faixa de opções; as suas notas continuam nos seus cadernos.
+
+**Q: O conteúdo em Markdown mantém-se nativo no OneNote?**
+
+**A:** Sim. A renderização usa elementos nativos do OneNote em vez de imagens, pelo que as notas permanecem editáveis, pesquisáveis e sincronizáveis entre clientes do OneNote. As páginas podem ser exportadas para `.md`.
+
+**Q: Como instalo?**
+
+**A:** Transfira o instalador multilíngue único a partir do site, execute-o e abra o OneNote; aparece um separador **HydroMark** na faixa de opções. O instalador adapta-se automaticamente ao OneNote de 32 e de 64 bits.
+
+**Q: É gratuito?**
+
+**A:** Há 14 dias de experimentação com todas as funcionalidades. Depois, as licenças são por dispositivo (email + chave): planos Individual e Família, Básico e Pro, vitalício ou anual.
 
 ## 🌐 Links oficiais
 

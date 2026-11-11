@@ -107,26 +107,37 @@ HydroMark는 **OneNote Markdown 애드인**입니다. Microsoft OneNote 안에 �
 
 ## 자주 묻는 질문
 
-**OneNote용 Markdown 애드인이 있나요?**
-네 — HydroMark는 Windows의 Microsoft OneNote 데스크톱을 위해 특별히 만들어진 Markdown 애드인(addin)입니다.
+**Q: OneNote용 Markdown 애드인이 있나요?**
 
-**OneNote에서 AI로 노트를 작성할 수 있나요?**
-네. HydroMark에는 렌더링된 Markdown 문서와 표를 현재 OneNote 페이지에 직접 삽입하고 렌더링, 내보내기, 목차 같은 애드인 작업을 실행할 수 있는 AI 어시스턴트가 포함되어 있습니다.
+**A:** 네. HydroMark는 Windows의 Microsoft OneNote 데스크톱을 위해 특별히 만들어진 Markdown 애드인(addin)입니다.
 
-**HydroMark는 OneNote for Windows 10, Mac, 모바일에서 작동하나요?**
-아니요. HydroMark는 Windows 7+의 OneNote **데스크톱** 2013 이상(2016 / 2019 / 2021 / Microsoft 365)을 지원합니다. UWP / Microsoft Store 버전의 OneNote, macOS, 모바일은 **지원하지 않습니다**.
+**Q: OneNote에서 AI로 노트를 작성할 수 있나요?**
 
-**HydroMark는 OneNote 플러그인인가요, 별도 앱인가요?**
-별도의 노트 앱이 아닌 OneNote 애드인입니다. OneNote에 설치되어 리본에 **HydroMark** 탭을 추가하며, 노트는 기존 노트북에 그대로 유지됩니다.
+**A:** 네. HydroMark에는 렌더링된 Markdown 문서와 표를 현재 OneNote 페이지에 직접 삽입하고 렌더링, 내보내기, 목차 같은 애드인 작업을 실행할 수 있는 AI 어시스턴트가 포함되어 있습니다.
 
-**Markdown 콘텐츠가 OneNote에서 기본 형식으로 유지되나요?**
-네. 렌더링은 이미지가 아닌 OneNote 기본 요소를 사용하므로 노트는 계속 편집·검색·동기화할 수 있습니다. 페이지는 여전히 `.md`로 내보낼 수 있습니다.
+**Q: 이미지를 붙여넣어 AI에게 질문할 수 있나요?**
 
-**설치는 어떻게 하나요?**
-웹사이트에서 다국어 단일 설치 프로그램을 다운로드해 실행하고 OneNote를 열면 리본에 **HydroMark** 탭이 나타납니다. 설치 프로그램은 32비트 및 64비트 OneNote에 자동으로 맞춰집니다.
+**A:** 지원합니다. 이미지를 복사하거나 스크린샷을 찍은 뒤 AI 어시스턴트 입력창에서 Ctrl+V를 누르면 해당 이미지에 대해 질문할 수 있습니다(한 번에 여러 장 가능). 이미지 입력을 지원하는 모델을 선택해야 하며, 지원하지 않는 공급자에서는 HydroMark가 안내를 표시합니다. 이미지는 사용자의 API 키로 선택한 모델 공급자에게 전송됩니다.
 
-**무료인가요?**
-14일 전체 기능 체험이 있습니다. 이후 라이선스는 기기 단위(이메일 + 키)이며, Individual 및 Family, Basic 및 Pro, 영구 또는 연간 요금제가 있습니다.
+**Q: HydroMark는 OneNote for Windows 10, Mac, 모바일에서 작동하나요?**
+
+**A:** 아니요. HydroMark는 Windows 7+의 OneNote **데스크톱** 2013 이상(2016 / 2019 / 2021 / Microsoft 365)을 지원합니다. UWP / Microsoft Store 버전의 OneNote, macOS, 모바일은 **지원하지 않습니다**.
+
+**Q: HydroMark는 OneNote 플러그인인가요, 별도 앱인가요?**
+
+**A:** 별도의 노트 앱이 아닌 OneNote 애드인입니다. OneNote에 설치되어 리본에 **HydroMark** 탭을 추가하며, 노트는 기존 노트북에 그대로 유지됩니다.
+
+**Q: Markdown 콘텐츠가 OneNote에서 기본 형식으로 유지되나요?**
+
+**A:** 네. 렌더링은 이미지가 아닌 OneNote 기본 요소를 사용하므로 노트는 계속 편집·검색·동기화할 수 있습니다. 페이지는 여전히 `.md`로 내보낼 수 있습니다.
+
+**Q: 설치는 어떻게 하나요?**
+
+**A:** 웹사이트에서 다국어 단일 설치 프로그램을 다운로드해 실행하고 OneNote를 열면 리본에 **HydroMark** 탭이 나타납니다. 설치 프로그램은 32비트 및 64비트 OneNote에 자동으로 맞춰집니다.
+
+**Q: 무료인가요?**
+
+**A:** 14일 전체 기능 체험이 있습니다. 이후 라이선스는 기기 단위(이메일 + 키)이며, Individual 및 Family, Basic 및 Pro, 영구 또는 연간 요금제가 있습니다.
 
 ## 🌐 공식 링크
 

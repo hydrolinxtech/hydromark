@@ -107,26 +107,37 @@ La prueba completa de 14 días comienza automáticamente, sin tarjeta de crédit
 
 ## Preguntas frecuentes
 
-**¿Existe un complemento de Markdown para OneNote?**
-Sí: HydroMark es un complemento de Markdown (add-in) creado específicamente para Microsoft OneNote de escritorio en Windows.
+**Q: ¿Existe un complemento de Markdown para OneNote?**
 
-**¿Puedo usar IA para escribir notas en OneNote?**
-Sí. HydroMark incluye un asistente de IA que inserta artículos y tablas de Markdown renderizados directamente en la página actual de OneNote, y puede activar acciones del complemento como renderizar, exportar o la tabla de contenido.
+**A:** Sí: HydroMark es un complemento de Markdown (add-in) creado específicamente para Microsoft OneNote de escritorio en Windows.
 
-**¿Funciona HydroMark con OneNote para Windows 10, Mac o móvil?**
-No. HydroMark es compatible con OneNote **de escritorio** 2013 y posteriores (2016 / 2019 / 2021 / Microsoft 365) en Windows 7+. La versión UWP / Microsoft Store de OneNote, macOS y móvil **no** son compatibles.
+**Q: ¿Puedo usar IA para escribir notas en OneNote?**
 
-**¿HydroMark es un complemento de OneNote o una aplicación independiente?**
-Es un complemento de OneNote, no una aplicación de notas independiente. Se instala en OneNote y añade una pestaña **HydroMark** a la cinta de opciones; tus notas permanecen en tus cuadernos existentes.
+**A:** Sí. HydroMark incluye un asistente de IA que inserta artículos y tablas de Markdown renderizados directamente en la página actual de OneNote, y puede activar acciones del complemento como renderizar, exportar o la tabla de contenido.
 
-**¿El contenido de Markdown se mantiene nativo en OneNote?**
-Sí. El renderizado usa elementos nativos de OneNote en lugar de imágenes, así que las notas siguen siendo editables, se pueden buscar y sincronizar entre clientes de OneNote. Las páginas todavía se pueden exportar a `.md`.
+**Q: ¿Puedo pegar una imagen y preguntar a la IA sobre ella?**
 
-**¿Cómo lo instalo?**
-Descarga el instalador multilingüe único desde el sitio web, ejecútalo y abre OneNote: aparecerá una pestaña **HydroMark** en la cinta de opciones. El instalador se adapta automáticamente a OneNote de 32 y 64 bits.
+**A:** Sí. Copia una imagen o haz una captura y pulsa Ctrl+V en el cuadro del asistente de IA para preguntar sobre ella; puedes adjuntar varias en una misma pregunta. Requiere un modelo con entrada de imágenes; si el proveedor seleccionado no lo admite, HydroMark te lo indica. Las imágenes se envían al proveedor con tu propia clave API.
 
-**¿Es gratis?**
-Hay una prueba completa de 14 días. Después, las licencias son por dispositivo (correo electrónico + clave): planes Individual y Family, Basic y Pro, de por vida o anuales.
+**Q: ¿Funciona HydroMark con OneNote para Windows 10, Mac o móvil?**
+
+**A:** No. HydroMark es compatible con OneNote **de escritorio** 2013 y posteriores (2016 / 2019 / 2021 / Microsoft 365) en Windows 7+. La versión UWP / Microsoft Store de OneNote, macOS y móvil **no** son compatibles.
+
+**Q: ¿HydroMark es un complemento de OneNote o una aplicación independiente?**
+
+**A:** Es un complemento de OneNote, no una aplicación de notas independiente. Se instala en OneNote y añade una pestaña **HydroMark** a la cinta de opciones; tus notas permanecen en tus cuadernos existentes.
+
+**Q: ¿El contenido de Markdown se mantiene nativo en OneNote?**
+
+**A:** Sí. El renderizado usa elementos nativos de OneNote en lugar de imágenes, así que las notas siguen siendo editables, se pueden buscar y sincronizar entre clientes de OneNote. Las páginas todavía se pueden exportar a `.md`.
+
+**Q: ¿Cómo lo instalo?**
+
+**A:** Descarga el instalador multilingüe único desde el sitio web, ejecútalo y abre OneNote: aparecerá una pestaña **HydroMark** en la cinta de opciones. El instalador se adapta automáticamente a OneNote de 32 y 64 bits.
+
+**Q: ¿Es gratis?**
+
+**A:** Hay una prueba completa de 14 días. Después, las licencias son por dispositivo (correo electrónico + clave): planes Individual y Family, Basic y Pro, de por vida o anuales.
 
 ## 🌐 Enlaces oficiales
 

@@ -107,26 +107,37 @@ HydroMark 是一款 **OneNote Markdown 外掛**：一個把真正的 Markdown �
 
 ## 常見問題
 
-**OneNote 有 Markdown 外掛嗎？**
-有——HydroMark 是專為 Windows 上的 Microsoft OneNote 桌面版打造的 Markdown 外掛。
+**Q: OneNote 有 Markdown 外掛嗎？**
 
-**我可以在 OneNote 中用 AI 寫筆記嗎？**
-可以。HydroMark 內建 AI 助理，可將渲染後的 Markdown 文章與表格直接插入目前的 OneNote 頁面，並能觸發渲染、匯出或目錄等外掛操作。
+**A:** 有。HydroMark 是專為 Windows 上的 Microsoft OneNote 桌面版打造的 Markdown 外掛。
 
-**HydroMark 支援 OneNote for Windows 10、Mac 或行動版嗎？**
-不支援。HydroMark 支援 Windows 7+ 上的 OneNote **桌面版** 2013 及更高版本（2016 / 2019 / 2021 / Microsoft 365）。OneNote 的 UWP / Microsoft Store 版本、macOS 與行動版均**不**受支援。
+**Q: 我可以在 OneNote 中用 AI 寫筆記嗎？**
 
-**HydroMark 是 OneNote 外掛還是獨立應用程式？**
-它是 OneNote 外掛，而不是獨立的筆記應用程式。它會安裝到 OneNote 中，並在功能區新增一個 **HydroMark** 索引標籤；你的筆記仍保留在既有筆記本中。
+**A:** 可以。HydroMark 內建 AI 助理，可將渲染後的 Markdown 文章與表格直接插入目前的 OneNote 頁面，並能觸發渲染、匯出或目錄等外掛操作。
 
-**Markdown 內容在 OneNote 中會保持原生嗎？**
-會。渲染使用 OneNote 的原生元素而非圖片，因此筆記保持可編輯、可搜尋，並能在各 OneNote 用戶端之間同步。頁面仍可匯出為 `.md`。
+**Q: 可以貼上圖片向 AI 提問嗎？**
 
-**如何安裝？**
-從官網下載單一多語系安裝程式，執行後開啟 OneNote——功能區中會出現一個 **HydroMark** 索引標籤。安裝程式會自動適應 32 位元與 64 位元 OneNote。
+**A:** 支援。截圖或複製圖片後，在 AI 助手輸入框按 Ctrl+V 貼上即可提問，一次可附多張圖。需選擇支援圖片輸入的模型，目前廠商不支援時 HydroMark 會直接提示。圖片隨提問用你自己的 API Key 傳給所選模型廠商。
 
-**是免費的嗎？**
-提供 14 天全功能試用。之後依裝置授權（電子郵件 + 金鑰）：個人版與家庭版、基礎版與專業版，可選永久或按年。
+**Q: HydroMark 支援 OneNote for Windows 10、Mac 或行動版嗎？**
+
+**A:** 不支援。HydroMark 支援 Windows 7+ 上的 OneNote **桌面版** 2013 及更高版本（2016 / 2019 / 2021 / Microsoft 365）。OneNote 的 UWP / Microsoft Store 版本、macOS 與行動版均**不**受支援。
+
+**Q: HydroMark 是 OneNote 外掛還是獨立應用程式？**
+
+**A:** 它是 OneNote 外掛，而不是獨立的筆記應用程式。它會安裝到 OneNote 中，並在功能區新增一個 **HydroMark** 索引標籤；你的筆記仍保留在既有筆記本中。
+
+**Q: Markdown 內容在 OneNote 中會保持原生嗎？**
+
+**A:** 會。渲染使用 OneNote 的原生元素而非圖片，因此筆記保持可編輯、可搜尋，並能在各 OneNote 用戶端之間同步。頁面仍可匯出為 `.md`。
+
+**Q: 如何安裝？**
+
+**A:** 從官網下載單一多語系安裝程式，執行後開啟 OneNote，功能區中會出現一個 **HydroMark** 索引標籤。安裝程式會自動適應 32 位元與 64 位元 OneNote。
+
+**Q: 是免費的嗎？**
+
+**A:** 提供 14 天全功能試用。之後依裝置授權（電子郵件 + 金鑰）：個人版與家庭版、基礎版與專業版，可選永久或按年。
 
 ## 🌐 官方連結
 

@@ -107,26 +107,37 @@ Un essai complet de 14 jours démarre automatiquement — sans carte bancaire. P
 
 ## Questions fréquentes
 
-**Existe-t-il un complément Markdown pour OneNote ?**
-Oui — HydroMark est un complément (add-in) Markdown conçu spécifiquement pour Microsoft OneNote bureau sous Windows.
+**Q: Existe-t-il un complément Markdown pour OneNote ?**
 
-**Puis-je utiliser l'IA pour écrire des notes dans OneNote ?**
-Oui. HydroMark inclut un assistant IA qui insère des articles et des tableaux Markdown rendus directement dans la page OneNote active, et peut déclencher des actions du complément telles que le rendu, l'export ou la table des matières.
+**A:** Oui. HydroMark est un complément (add-in) Markdown conçu spécifiquement pour Microsoft OneNote bureau sous Windows.
 
-**HydroMark fonctionne-t-il avec OneNote pour Windows 10, Mac ou mobile ?**
-Non. HydroMark prend en charge OneNote **bureau** 2013 et versions ultérieures (2016 / 2019 / 2021 / Microsoft 365) sous Windows 7+. La version UWP / Microsoft Store de OneNote, macOS et mobile ne sont **pas** pris en charge.
+**Q: Puis-je utiliser l'IA pour écrire des notes dans OneNote ?**
 
-**HydroMark est-il un plugin OneNote ou une application séparée ?**
-C'est un complément OneNote, pas une application de prise de notes séparée. Il s'installe dans OneNote et ajoute un onglet **HydroMark** au ruban ; vos notes restent dans vos bloc-notes existants.
+**A:** Oui. HydroMark inclut un assistant IA qui insère des articles et des tableaux Markdown rendus directement dans la page OneNote active, et peut déclencher des actions du complément telles que le rendu, l'export ou la table des matières.
 
-**Le contenu Markdown reste-t-il natif dans OneNote ?**
-Oui. Le rendu utilise les éléments natifs de OneNote plutôt que des images, de sorte que les notes restent modifiables, consultables et synchronisables sur tous les clients OneNote. Les pages peuvent toujours être exportées vers `.md`.
+**Q: Puis-je coller une image et poser une question à l'IA à son sujet ?**
 
-**Comment l'installer ?**
-Téléchargez l'installateur multilingue unique depuis le site web, exécutez-le et ouvrez OneNote — un onglet **HydroMark** apparaît dans le ruban. L'installateur s'adapte automatiquement à OneNote 32 bits et 64 bits.
+**A:** Oui. Copiez une image ou faites une capture d'écran, puis appuyez sur Ctrl+V dans le champ de l'assistant IA pour poser une question à son sujet ; plusieurs images sont possibles pour une même question. Cela nécessite un modèle acceptant les images ; si le fournisseur choisi ne le prend pas en charge, HydroMark l'indique. Les images sont envoyées au fournisseur avec votre propre clé API.
 
-**Est-ce gratuit ?**
-Il existe un essai complet de 14 jours. Ensuite, les licences sont par appareil (e-mail + clé) : offres Individual et Family, Basic et Pro, à vie ou annuelle.
+**Q: HydroMark fonctionne-t-il avec OneNote pour Windows 10, Mac ou mobile ?**
+
+**A:** Non. HydroMark prend en charge OneNote **bureau** 2013 et versions ultérieures (2016 / 2019 / 2021 / Microsoft 365) sous Windows 7+. La version UWP / Microsoft Store de OneNote, macOS et mobile ne sont **pas** pris en charge.
+
+**Q: HydroMark est-il un plugin OneNote ou une application séparée ?**
+
+**A:** C'est un complément OneNote, pas une application de prise de notes séparée. Il s'installe dans OneNote et ajoute un onglet **HydroMark** au ruban ; vos notes restent dans vos bloc-notes existants.
+
+**Q: Le contenu Markdown reste-t-il natif dans OneNote ?**
+
+**A:** Oui. Le rendu utilise les éléments natifs de OneNote plutôt que des images, de sorte que les notes restent modifiables, consultables et synchronisables sur tous les clients OneNote. Les pages peuvent toujours être exportées vers `.md`.
+
+**Q: Comment l'installer ?**
+
+**A:** Téléchargez l'installateur multilingue unique depuis le site web, exécutez-le et ouvrez OneNote : un onglet **HydroMark** apparaît dans le ruban. L'installateur s'adapte automatiquement à OneNote 32 bits et 64 bits.
+
+**Q: Est-ce gratuit ?**
+
+**A:** Il existe un essai complet de 14 jours. Ensuite, les licences sont par appareil (e-mail + clé) : offres Individual et Family, Basic et Pro, à vie ou annuelle.
 
 ## 🌐 Liens officiels
 

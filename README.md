@@ -107,26 +107,37 @@ A 14-day full-featured trial starts automatically — no credit card required. F
 
 ## Common questions
 
-**Is there a Markdown add-in for OneNote?**
-Yes — HydroMark is a Markdown add-in (addin) built specifically for Microsoft OneNote desktop on Windows.
+**Q: Is there a Markdown add-in for OneNote?**
 
-**Can I use AI to write notes in OneNote?**
-Yes. HydroMark includes an AI assistant that inserts rendered Markdown articles and tables directly into the current OneNote page, and can trigger add-in actions such as render, export or table of contents.
+**A:** Yes. HydroMark is a Markdown add-in (addin) built specifically for Microsoft OneNote desktop on Windows.
 
-**Does HydroMark work with OneNote for Windows 10, Mac or mobile?**
-No. HydroMark supports OneNote **desktop** 2013 and later (2016 / 2019 / 2021 / Microsoft 365) on Windows 7+. The UWP / Microsoft Store version of OneNote, macOS and mobile are **not** supported.
+**Q: Can I use AI to write notes in OneNote?**
 
-**Is HydroMark a OneNote plugin or a separate app?**
-It is a OneNote add-in, not a separate note-taking app. It installs into OneNote and adds a **HydroMark** tab to the ribbon; your notes stay in your existing notebooks.
+**A:** Yes. HydroMark includes an AI assistant that inserts rendered Markdown articles and tables directly into the current OneNote page, and can trigger add-in actions such as render, export or table of contents.
 
-**Does Markdown content stay native in OneNote?**
-Yes. Rendering uses OneNote's native elements rather than images, so notes remain editable, searchable and syncable across OneNote clients. Pages can still be exported to `.md`.
+**Q: Can I paste an image and ask AI about it?**
 
-**How do I install it?**
-Download the single multilingual installer from the website, run it, and open OneNote — a **HydroMark** tab appears in the ribbon. The installer auto-adapts to 32-bit and 64-bit OneNote.
+**A:** Yes. Copy an image or take a screenshot, then press Ctrl+V in the AI assistant's input box to ask about it; several images can be attached to one question. This requires a model with image input, and if the selected provider does not support it, HydroMark tells you. Images go with your question to the provider using your own API key.
 
-**Is it free?**
-There is a 14-day full-featured trial. After that, licenses are per device (email + key): Individual and Family plans, Basic and Pro, lifetime or annual.
+**Q: Does HydroMark work with OneNote for Windows 10, Mac or mobile?**
+
+**A:** No. HydroMark supports OneNote **desktop** 2013 and later (2016 / 2019 / 2021 / Microsoft 365) on Windows 7+. The UWP / Microsoft Store version of OneNote, macOS and mobile are **not** supported.
+
+**Q: Is HydroMark a OneNote plugin or a separate app?**
+
+**A:** It is a OneNote add-in, not a separate note-taking app. It installs into OneNote and adds a **HydroMark** tab to the ribbon; your notes stay in your existing notebooks.
+
+**Q: Does Markdown content stay native in OneNote?**
+
+**A:** Yes. Rendering uses OneNote's native elements rather than images, so notes remain editable, searchable and syncable across OneNote clients. Pages can still be exported to `.md`.
+
+**Q: How do I install it?**
+
+**A:** Download the single multilingual installer from the website, run it, and open OneNote; a **HydroMark** tab appears in the ribbon. The installer auto-adapts to 32-bit and 64-bit OneNote.
+
+**Q: Is it free?**
+
+**A:** There is a 14-day full-featured trial. After that, licenses are per device (email + key): Individual and Family plans, Basic and Pro, lifetime or annual.
 
 ## 🌐 Official Links
 

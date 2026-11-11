@@ -107,26 +107,37 @@ Eine 14-tägige Testphase mit vollem Funktionsumfang startet automatisch — ohn
 
 ## Häufige Fragen
 
-**Gibt es ein Markdown-Add-in für OneNote?**
-Ja — HydroMark ist ein Markdown-Add-in, das speziell für Microsoft OneNote Desktop unter Windows entwickelt wurde.
+**Q: Gibt es ein Markdown-Add-in für OneNote?**
 
-**Kann ich KI nutzen, um Notizen in OneNote zu schreiben?**
-Ja. HydroMark enthält einen KI-Assistenten, der gerenderte Markdown-Artikel und Tabellen direkt in die aktuelle OneNote-Seite einfügt und Add-in-Aktionen wie Rendern, Exportieren oder Inhaltsverzeichnis auslösen kann.
+**A:** Ja. HydroMark ist ein Markdown-Add-in, das speziell für Microsoft OneNote Desktop unter Windows entwickelt wurde.
 
-**Funktioniert HydroMark mit OneNote für Windows 10, Mac oder Mobilgeräten?**
-Nein. HydroMark unterstützt OneNote **Desktop** 2013 und höher (2016 / 2019 / 2021 / Microsoft 365) unter Windows 7+. Die UWP-/Microsoft-Store-Version von OneNote, macOS und Mobilgeräte werden **nicht** unterstützt.
+**Q: Kann ich KI nutzen, um Notizen in OneNote zu schreiben?**
 
-**Ist HydroMark ein OneNote-Plugin oder eine separate App?**
-Es ist ein OneNote-Add-in, keine separate Notiz-App. Es installiert sich in OneNote und fügt dem Menüband eine Registerkarte **HydroMark** hinzu; Ihre Notizen bleiben in Ihren bestehenden Notizbüchern.
+**A:** Ja. HydroMark enthält einen KI-Assistenten, der gerenderte Markdown-Artikel und Tabellen direkt in die aktuelle OneNote-Seite einfügt und Add-in-Aktionen wie Rendern, Exportieren oder Inhaltsverzeichnis auslösen kann.
 
-**Bleiben Markdown-Inhalte in OneNote nativ?**
-Ja. Das Rendering verwendet native Elemente von OneNote statt Bilder, sodass Notizen bearbeitbar, durchsuchbar und über alle OneNote-Clients hinweg synchronisierbar bleiben. Seiten können weiterhin nach `.md` exportiert werden.
+**Q: Kann ich ein Bild einfügen und die KI dazu fragen?**
 
-**Wie installiere ich es?**
-Laden Sie den einen mehrsprachigen Installer von der Website herunter, führen Sie ihn aus und öffnen Sie OneNote — im Menüband erscheint eine Registerkarte **HydroMark**. Der Installer passt sich automatisch an 32-Bit- und 64-Bit-OneNote an.
+**A:** Ja. Kopieren Sie ein Bild oder machen Sie einen Screenshot und drücken Sie im Eingabefeld des KI-Assistenten Ctrl+V, um dazu zu fragen; mehrere Bilder pro Frage sind möglich. Dafür ist ein Modell mit Bildeingabe nötig; unterstützt der gewählte Anbieter das nicht, weist HydroMark darauf hin. Die Bilder gehen mit Ihrem eigenen API-Schlüssel an den gewählten Anbieter.
 
-**Ist es kostenlos?**
-Es gibt eine 14-tägige Testphase mit vollem Funktionsumfang. Danach werden Lizenzen pro Gerät vergeben (E-Mail + Key): Tarife Individual und Family, Basic und Pro, lebenslang oder jährlich.
+**Q: Funktioniert HydroMark mit OneNote für Windows 10, Mac oder Mobilgeräten?**
+
+**A:** Nein. HydroMark unterstützt OneNote **Desktop** 2013 und höher (2016 / 2019 / 2021 / Microsoft 365) unter Windows 7+. Die UWP-/Microsoft-Store-Version von OneNote, macOS und Mobilgeräte werden **nicht** unterstützt.
+
+**Q: Ist HydroMark ein OneNote-Plugin oder eine separate App?**
+
+**A:** Es ist ein OneNote-Add-in, keine separate Notiz-App. Es installiert sich in OneNote und fügt dem Menüband eine Registerkarte **HydroMark** hinzu; Ihre Notizen bleiben in Ihren bestehenden Notizbüchern.
+
+**Q: Bleiben Markdown-Inhalte in OneNote nativ?**
+
+**A:** Ja. Das Rendering verwendet native Elemente von OneNote statt Bilder, sodass Notizen bearbeitbar, durchsuchbar und über alle OneNote-Clients hinweg synchronisierbar bleiben. Seiten können weiterhin nach `.md` exportiert werden.
+
+**Q: Wie installiere ich es?**
+
+**A:** Laden Sie den einen mehrsprachigen Installer von der Website herunter, führen Sie ihn aus und öffnen Sie OneNote; im Menüband erscheint eine Registerkarte **HydroMark**. Der Installer passt sich automatisch an 32-Bit- und 64-Bit-OneNote an.
+
+**Q: Ist es kostenlos?**
+
+**A:** Es gibt eine 14-tägige Testphase mit vollem Funktionsumfang. Danach werden Lizenzen pro Gerät vergeben (E-Mail + Key): Tarife Individual und Family, Basic und Pro, lebenslang oder jährlich.
 
 ## 🌐 Offizielle Links
 
