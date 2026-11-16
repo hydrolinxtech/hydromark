@@ -28,7 +28,7 @@ For further information please check our [Documentation](https://hydromark.hydro
 
 HydroMark is an **OneNote Markdown add-in**: a Windows add-in that puts a real Markdown editor inside Microsoft OneNote. You keep writing in OneNote's notebooks, canvas and cloud sync, but you get the Markdown workflow you actually want — type `## Heading` then a space, and the page shows a rendered heading instead of raw syntax.
 
-Everything is rendered with **OneNote's own native elements, not images**, so your Markdown notes stay editable, searchable inside OneNote, available offline, and synced to OneNote on phone, tablet and the web. Press `F8` to export a page back to `.md`.
+Everything is rendered with **OneNote's own native elements, not images**, so your Markdown notes stay editable, searchable inside OneNote, available offline, and synced to OneNote on phone, tablet and the web. Press `F8` to export the page — as Markdown, as a self-contained HTML file, or as PDF through OneNote's built-in export.
 
 Since **v1.1.0** the add-in also includes an **AI assistant**. Unlike AI sidebars that hand you text to copy-paste, HydroMark's AI writes into the page: it inserts fully rendered articles, builds tables, and runs add-in actions such as render, export, table of contents and page width — with results fed back to the model so it can confirm or self-correct.
 
@@ -45,7 +45,7 @@ Since **v1.1.0** the add-in also includes an **AI assistant**. Unlike AI sidebar
 | **Runtime**       | .NET Framework 4.8+                                                                                       |
 | **Not supported** | OneNote for Windows 10 (UWP / Microsoft Store), macOS, mobile                                             |
 | **Trial**         | 14-day full-featured trial, no credit card                                                                |
-| **AI**            | Built in — 14 providers, bring your own API key                                                           |
+| **AI**            | Built in — 20+ providers (China / international catalogs), OpenAI & Anthropic protocols, bring your own API key |
 | **Languages**     | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Features
@@ -65,7 +65,7 @@ Since **v1.1.0** the add-in also includes an **AI assistant**. Unlike AI sidebar
 | 🖍️ **Highlight blocks** | Visually call out important notes                                        | —                 |
 | 📑 **Page TOC & width**  | Auto table of contents; manual / auto page width                         | —                 |
 | 🌙 **Dark mode**         | Rendered content, dialogs & AI sidebar follow OneNote                    | —                 |
-| 🔄 **Import / Export**   | Markdown files in and out (images optional)                              | `F8`              |
+| 🔄 **Import / Export**   | Import from clipboard or file; export as `.md`, single-file HTML, or PDF (via OneNote) | `F8`              |
 
 ### 🤖 AI Assistant — the headline feature (new in 1.1.0)
 
@@ -73,7 +73,7 @@ Most AI sidebars hand you a wall of text to copy-paste. HydroMark's assistant **
 
 - **Executes add-in actions, not just chat** — insert a fully rendered article, build tables, run page operations (render, export, TOC, page width); action results feed back into the conversation so the model can confirm or self-correct.
 - **Tables on command, with the width you asked for** — `insert_table` supports full-page-width and **content-fitted** layouts; the AI path shares the same table engine as the `Alt+W` width toggle.
-- **Bring your own model** — 14 providers built in (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), custom Base URL for anything else. Your API key stays on your machine; no middleman server.
+- **Bring your own model** — 20+ providers built in, organized into China and international catalogs (OpenAI, Claude, Gemini, DeepSeek, Kimi, Zhipu, Qwen…), with **both OpenAI-compatible and Anthropic-compatible protocols** and a custom Base URL for anything else. Not sure where to get a key? The **"How to get an API key" link at the top of AI settings** opens a step-by-step tutorial. Your API key stays on your machine; no middleman server.
 - **Multimodal** — paste a screenshot into the chat and reference it with multimodal models.
 - **Language-following** — ask in Chinese, get Chinese; ask in English, get English.
 - **Included in every license** — the 14-day free trial and all paid tiers. Open it with `Alt+A` or the ribbon's **AI** group.
@@ -92,7 +92,14 @@ Most AI sidebars hand you a wall of text to copy-paste. HydroMark's assistant **
 - **Highlight blocks** — call out important notes visually.
 - **Page TOC & page width** — auto-generate or hide a table of contents; manual or automatic page width.
 - **Full dark-mode adaptation** — rendered content, dialogs and the AI sidebar all follow OneNote's theme.
-- **Seamless import / export** — Markdown files in, Markdown files out (images optional).
+- **Seamless import / export** — import Markdown from the clipboard or a file; export the page as Markdown, a single-file HTML, or PDF via OneNote (see below).
+
+### 📤 Import & export
+
+- **Import from clipboard or file** — the import entry asks where the Markdown comes from: paste what's on the clipboard, or pick a `.md` / `.markdown` / `.txt` file (read as UTF-8, the file itself is never modified). Content is rendered and inserted at the cursor.
+- **Export to Markdown** — to the clipboard or to a folder (`.md` + a sibling image folder), with `F8`.
+- **Export to single-file HTML** — a modern, self-contained web page: CSS and all images embedded in one `.html` file that opens offline in any browser. The exported page has a full-width layout, a collapsible and searchable table of contents, light / dark themes with an adjustable background color, fullscreen reading and back-to-top.
+- **Export to PDF (via OneNote)** — HydroMark does not generate PDF itself; choosing this option shows the steps for OneNote's built-in export (File → Export → Page → PDF, or Print → "Microsoft Print to PDF").
 
 ## 🚀 Getting Started
 
@@ -100,8 +107,8 @@ Most AI sidebars hand you a wall of text to copy-paste. HydroMark's assistant **
 2. **Run** the installer — it auto-adapts to 32-bit and 64-bit OneNote, so there is no separate x86 / x64 package to pick.
 3. **Open OneNote** and find the **HydroMark** tab in the ribbon.
 4. **Write Markdown** — type `## ` then Space for a heading, `- ` then Space for a list; other blocks render on Enter or `F5`.
-5. **Set up the AI first** — open **Settings → AI model**, pick a provider and enter your API key (bring your own key; 14 providers built in). Then open the **AI assistant** with `Alt+A` (or the ribbon **AI** group) and let it write articles and tables straight into the page.
-6. **Export** the current page to `.md` with `F8`.
+5. **Set up the AI first** — open **Settings → AI model**, pick a provider and enter your API key (bring your own key; 20+ providers built in, and a "How to get an API key" tutorial link at the top of the dialog). Then open the **AI assistant** with `Alt+A` (or the ribbon **AI** group) and let it write articles and tables straight into the page.
+6. **Export** the current page with `F8` — choose Markdown (clipboard or folder), single-file HTML, or the PDF guide (OneNote's built-in export).
 
 A 14-day full-featured trial starts automatically — no credit card required. For the full guide, see the [documentation](https://hydromark.hydrolinx.top/documentation).
 
@@ -129,7 +136,11 @@ A 14-day full-featured trial starts automatically — no credit card required. F
 
 **Q: Does Markdown content stay native in OneNote?**
 
-**A:** Yes. Rendering uses OneNote's native elements rather than images, so notes remain editable, searchable and syncable across OneNote clients. Pages can still be exported to `.md`.
+**A:** Yes. Rendering uses OneNote's native elements rather than images, so notes remain editable, searchable and syncable across OneNote clients. Pages can still be exported to `.md` or a single-file HTML.
+
+**Q: Can I export a page to HTML or PDF?**
+
+**A:** Yes for HTML — the export dialog (`F8`) offers a **single-file HTML** option: CSS and images are embedded in one `.html` file that opens offline in any browser, with a searchable table of contents, light / dark themes and fullscreen reading. For PDF, HydroMark shows a guide to **OneNote's built-in PDF export** (File → Export → Page → PDF); it does not generate PDF files itself.
 
 **Q: How do I install it?**
 

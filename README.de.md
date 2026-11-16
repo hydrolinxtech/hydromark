@@ -28,7 +28,7 @@ Weitere Informationen finden Sie in der [Dokumentation](https://hydromark.hydrol
 
 HydroMark ist ein **OneNote-Markdown-Add-in**: ein Windows-Add-in, das einen echten Markdown-Editor direkt in Microsoft OneNote integriert. Sie schreiben weiterhin in den Notizbüchern, auf der Arbeitsfläche und mit der Cloud-Synchronisierung von OneNote, erhalten aber den Markdown-Workflow, den Sie wirklich wollen — tippen Sie `## Heading` und dann die Leertaste, und die Seite zeigt eine gerenderte Überschrift statt roher Syntax.
 
-Alles wird mit **OneNote-eigenen nativen Elementen gerendert, nicht mit Bildern**, daher bleiben Ihre Markdown-Notizen bearbeitbar, in OneNote durchsuchbar, offline verfügbar und werden mit OneNote auf Smartphone, Tablet und im Web synchronisiert. Drücken Sie `F8`, um eine Seite wieder nach `.md` zu exportieren.
+Alles wird mit **OneNote-eigenen nativen Elementen gerendert, nicht mit Bildern**, daher bleiben Ihre Markdown-Notizen bearbeitbar, in OneNote durchsuchbar, offline verfügbar und werden mit OneNote auf Smartphone, Tablet und im Web synchronisiert. Drücken Sie `F8`, um die Seite zu exportieren — als Markdown, als eigenständige HTML-Datei oder als PDF über den integrierten Export von OneNote.
 
 Seit **v1.1.0** enthält das Add-in außerdem einen **KI-Assistenten**. Anders als KI-Seitenleisten, die Ihnen Text zum Kopieren liefern, schreibt die KI von HydroMark direkt in die Seite: Sie fügt vollständig gerenderte Artikel ein, erstellt Tabellen und führt Add-in-Aktionen wie Rendern, Exportieren, Inhaltsverzeichnis und Seitenbreite aus — die Ergebnisse werden an das Modell zurückgemeldet, damit es bestätigen oder sich selbst korrigieren kann.
 
@@ -45,7 +45,7 @@ Seit **v1.1.0** enthält das Add-in außerdem einen **KI-Assistenten**. Anders a
 | **Laufzeitumgebung**     | .NET Framework 4.8+                                                 |
 | **Nicht unterstützt**    | OneNote für Windows 10 (UWP / Microsoft Store), macOS, Mobilgeräte  |
 | **Testphase**            | 14 Tage voller Funktionsumfang, keine Kreditkarte                   |
-| **KI**                   | Integriert — 14 Anbieter, eigener API-Schlüssel                     |
+| **KI**                   | Integriert — 20+ Anbieter (Kataloge China / international), OpenAI- & Anthropic-Protokolle, eigener API-Schlüssel |
 | **Sprachen**             | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Funktionen
@@ -65,7 +65,7 @@ Seit **v1.1.0** enthält das Add-in außerdem einen **KI-Assistenten**. Anders a
 | 🖍️ **Hervorhebungsblöcke** | Wichtige Notizen optisch hervorheben                           | —               |
 | 📑 **TOC & Seitenbreite** | Automatisches Inhaltsverzeichnis; manuelle / automatische Breite  | —               |
 | 🌙 **Dark-Mode**        | Inhalt, Dialoge & KI-Seitenleiste folgen OneNote                     | —               |
-| 🔄 **Import / Export**  | Markdown-Dateien hinein und heraus (Bilder optional)                | `F8`            |
+| 🔄 **Import / Export**  | Import aus Zwischenablage oder Datei; Export als `.md`, Single-File-HTML oder PDF (über OneNote) | `F8`            |
 
 ### 🤖 KI-Assistent — das Highlight (neu in 1.1.0)
 
@@ -73,7 +73,7 @@ Die meisten KI-Seitenleisten liefern eine Textwand zum Kopieren. Der Assistent v
 
 - **Führt Add-in-Aktionen aus, nicht nur Chat** — fügt einen vollständig gerenderten Artikel ein, erstellt Tabellen, führt Seitenoperationen aus (Rendern, Exportieren, Inhaltsverzeichnis, Seitenbreite); Aktionsergebnisse fließen zurück in die Unterhaltung, damit das Modell bestätigen oder sich selbst korrigieren kann.
 - **Tabellen auf Befehl, in der gewünschten Breite** — `insert_table` unterstützt Layouts über die volle Seitenbreite und **inhaltspassend**; der KI-Pfad nutzt dieselbe Tabellen-Engine wie der Breitenumschalter `Alt+W`.
-- **Eigenes Modell** — 14 integrierte Anbieter (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), eigene Base-URL für alles andere. Ihr API-Schlüssel bleibt auf Ihrem Rechner; kein Vermittlungsserver.
+- **Eigenes Modell** — 20+ integrierte Anbieter, aufgeteilt in Kataloge für China und international (OpenAI, Claude, Gemini, DeepSeek, Kimi, Zhipu, Qwen…), mit OpenAI-kompatiblen und Anthropic-kompatiblen Protokollen sowie einer eigenen Base-URL für alles andere. Nicht sicher, wo Sie einen Schlüssel bekommen? Der Link „So erhalten Sie einen API-Schlüssel“ oben in den KI-Einstellungen öffnet eine Schritt-für-Schritt-Anleitung. Ihr API-Schlüssel bleibt auf Ihrem Rechner; kein Vermittlungsserver.
 - **Multimodal** — fügen Sie einen Screenshot in den Chat ein und referenzieren Sie ihn mit multimodalen Modellen.
 - **Sprachfolgend** — auf Chinesisch fragen, Chinesisch erhalten; auf Englisch fragen, Englisch erhalten.
 - **In jeder Lizenz enthalten** — in der 14-tägigen kostenlosen Testphase und in allen kostenpflichtigen Tarifen. Öffnen mit `Alt+A` oder über die Gruppe **AI** im Menüband.
@@ -92,7 +92,14 @@ Die meisten KI-Seitenleisten liefern eine Textwand zum Kopieren. Der Assistent v
 - **Hervorhebungsblöcke** — wichtige Notizen visuell hervorheben.
 - **Seiteninhaltverzeichnis und Seitenbreite** — Inhaltsverzeichnis automatisch erzeugen oder ausblenden; Seitenbreite manuell oder automatisch.
 - **Vollständige Dark-Mode-Anpassung** — gerenderte Inhalte, Dialoge und die KI-Seitenleiste folgen dem Theme von OneNote.
-- **Nahtloser Import / Export** — Markdown-Dateien rein, Markdown-Dateien raus (Bilder optional).
+- **Nahtloser Import / Export** — Markdown aus der Zwischenablage oder einer Datei importieren; die Seite als Markdown, Single-File-HTML oder PDF über OneNote exportieren (siehe unten).
+
+### 📤 Import & Export
+
+- **Import aus Zwischenablage oder Datei** — der Import-Einstieg fragt zuerst nach der Quelle: fügen Sie den Inhalt der Zwischenablage ein oder wählen Sie eine `.md`- / `.markdown`- / `.txt`-Datei (wird als UTF-8 gelesen, die Datei selbst wird nie verändert). Der Inhalt wird gerendert und an der Cursorposition eingefügt.
+- **Export nach Markdown** — in die Zwischenablage oder in einen Ordner (`.md` + ein Bilderordner auf derselben Ebene), mit `F8`.
+- **Export als Single-File-HTML** — eine moderne, eigenständige Webseite: CSS und alle Bilder in eine einzige `.html`-Datei eingebettet, die offline in jedem Browser öffnet. Die exportierte Seite bietet ein Layout über die volle Breite, ein ein- und ausklappbares, durchsuchbares Inhaltsverzeichnis, helle / dunkle Themes mit einstellbarer Hintergrundfarbe, Vollbild-Lesen und Zurück-nach-oben.
+- **Export als PDF (über OneNote)** — HydroMark erzeugt selbst keine PDFs; bei dieser Option werden die Schritte für den integrierten Export von OneNote angezeigt (File → Export → Page → PDF, oder Print → „Microsoft Print to PDF“).
 
 ## 🚀 Erste Schritte
 
@@ -100,8 +107,8 @@ Die meisten KI-Seitenleisten liefern eine Textwand zum Kopieren. Der Assistent v
 2. **Führen Sie** den Installer aus — er passt sich automatisch an 32-Bit- und 64-Bit-OneNote an, es gibt kein separates x86-/x64-Paket.
 3. **Öffnen Sie OneNote** und finden Sie die Registerkarte **HydroMark** im Menüband.
 4. **Schreiben Sie Markdown** — geben Sie `## ` und dann Leertaste für eine Überschrift ein, `- ` und Leertaste für eine Liste; andere Blöcke rendern mit Enter oder `F5`.
-5. **Richten Sie zuerst die KI ein** — öffnen Sie **Einstellungen → KI-Modell**, wählen Sie einen Anbieter und geben Sie Ihren API-Schlüssel ein (eigenen Schlüssel mitbringen; 14 Anbieter integriert). Öffnen Sie dann den **KI-Assistenten** mit `Alt+A` (oder der Gruppe **AI** im Menüband) und lassen Sie ihn Artikel und Tabellen direkt auf die Seite schreiben.
-6. **Exportieren** Sie die aktuelle Seite mit `F8` nach `.md`.
+5. **Richten Sie zuerst die KI ein** — öffnen Sie **Einstellungen → KI-Modell**, wählen Sie einen Anbieter und geben Sie Ihren API-Schlüssel ein (eigenen Schlüssel mitbringen; 20+ Anbieter integriert, und oben im Dialog ein Link zur Anleitung „So erhalten Sie einen API-Schlüssel“). Öffnen Sie dann den **KI-Assistenten** mit `Alt+A` (oder der Gruppe **AI** im Menüband) und lassen Sie ihn Artikel und Tabellen direkt auf die Seite schreiben.
+6. **Exportieren** Sie die aktuelle Seite mit `F8` — wählen Sie Markdown (Zwischenablage oder Ordner), Single-File-HTML oder die PDF-Anleitung (integrierter Export von OneNote).
 
 Eine 14-tägige Testphase mit vollem Funktionsumfang startet automatisch — ohne Kreditkarte. Das vollständige Handbuch finden Sie in der [Dokumentation](https://hydromark.hydrolinx.top/documentation).
 
@@ -129,7 +136,11 @@ Eine 14-tägige Testphase mit vollem Funktionsumfang startet automatisch — ohn
 
 **Q: Bleiben Markdown-Inhalte in OneNote nativ?**
 
-**A:** Ja. Das Rendering verwendet native Elemente von OneNote statt Bilder, sodass Notizen bearbeitbar, durchsuchbar und über alle OneNote-Clients hinweg synchronisierbar bleiben. Seiten können weiterhin nach `.md` exportiert werden.
+**A:** Ja. Das Rendering verwendet native Elemente von OneNote statt Bilder, sodass Notizen bearbeitbar, durchsuchbar und über alle OneNote-Clients hinweg synchronisierbar bleiben. Seiten können weiterhin nach `.md` oder als Single-File-HTML exportiert werden.
+
+**Q: Kann ich eine Seite als HTML oder PDF exportieren?**
+
+**A:** Als HTML ja — der Exportdialog (`F8`) bietet die Option **Single-File-HTML**: CSS und Bilder sind in eine einzige `.html`-Datei eingebettet, die offline in jedem Browser öffnet, mit durchsuchbarem Inhaltsverzeichnis, hellen / dunklen Themes und Vollbild-Lesen. Für PDF zeigt HydroMark eine Anleitung zum **integrierten PDF-Export von OneNote** (File → Export → Page → PDF); PDF-Dateien werden nicht selbst erzeugt.
 
 **Q: Wie installiere ich es?**
 

@@ -28,7 +28,7 @@ Pour plus d'informations, consultez la [Documentation](https://hydromark.hydroli
 
 HydroMark est un **complément Markdown pour OneNote** : un complément Windows qui intègre un véritable éditeur Markdown dans Microsoft OneNote. Vous continuez à écrire dans les bloc-notes, le canevas et la synchronisation cloud de OneNote, mais vous obtenez le flux de travail Markdown que vous voulez vraiment — tapez `## Heading` puis une espace, et la page affiche un titre rendu au lieu de la syntaxe brute.
 
-Tout est rendu avec les **éléments natifs de OneNote, et non des images**, de sorte que vos notes Markdown restent modifiables, consultables dans OneNote, disponibles hors ligne et synchronisées avec OneNote sur téléphone, tablette et web. Appuyez sur `F8` pour exporter une page vers `.md`.
+Tout est rendu avec les **éléments natifs de OneNote, et non des images**, de sorte que vos notes Markdown restent modifiables, consultables dans OneNote, disponibles hors ligne et synchronisées avec OneNote sur téléphone, tablette et web. Appuyez sur `F8` pour exporter la page — en Markdown, en fichier HTML autonome ou en PDF via l'export intégré de OneNote.
 
 Depuis la **v1.1.0**, le complément inclut également un **assistant IA**. Contrairement aux barres latérales IA qui vous donnent du texte à copier-coller, l'IA de HydroMark écrit dans la page : elle insère des articles entièrement rendus, construit des tableaux et exécute des actions du complément telles que le rendu, l'export, la table des matières et la largeur de page — les résultats étant renvoyés au modèle pour qu'il puisse confirmer ou se corriger.
 
@@ -45,7 +45,7 @@ Depuis la **v1.1.0**, le complément inclut également un **assistant IA**. Cont
 | **Environnement d'exécution** | .NET Framework 4.8+                                      |
 | **Non pris en charge** | OneNote pour Windows 10 (UWP / Microsoft Store), macOS, mobile  |
 | **Essai**         | Essai complet de 14 jours, sans carte bancaire                      |
-| **IA**            | Intégrée — 14 fournisseurs, apportez votre propre clé API           |
+| **IA**            | Intégrée — plus de 20 fournisseurs (catalogues Chine / internationaux), protocoles OpenAI et Anthropic, apportez votre propre clé API |
 | **Langues**       | English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Deutsch · Français · हिन्दी · العربية |
 
 ## ✨ Fonctionnalités
@@ -65,7 +65,7 @@ Depuis la **v1.1.0**, le complément inclut également un **assistant IA**. Cont
 | 🖍️ **Blocs de mise en évidence** | Met en avant visuellement les notes importantes            | —               |
 | 📑 **Sommaire & largeur**| Table des matières auto ; largeur manuelle / auto                | —               |
 | 🌙 **Mode sombre**      | Contenu, boîtes de dialogue & barre IA suivent OneNote             | —               |
-| 🔄 **Import / Export**  | Fichiers Markdown entrants et sortants (images optionnelles)        | `F8`            |
+| 🔄 **Import / Export**  | Import depuis le presse-papiers ou un fichier ; export en `.md`, HTML monofichier ou PDF (via OneNote) | `F8`            |
 
 ### 🤖 Assistant IA — la fonctionnalité phare (nouveau dans la 1.1.0)
 
@@ -73,7 +73,7 @@ La plupart des barres latérales IA vous remettent un mur de texte à copier-col
 
 - **Exécute des actions du complément, pas seulement du chat** — insère un article entièrement rendu, construit des tableaux, exécute des opérations de page (rendu, export, table des matières, largeur de page) ; les résultats des actions sont renvoyés dans la conversation pour que le modèle puisse confirmer ou se corriger.
 - **Des tableaux sur commande, avec la largeur demandée** — `insert_table` prend en charge les dispositions pleine largeur de page et **ajustées au contenu** ; le parcours IA partage le même moteur de tableaux que le basculement de largeur `Alt+W`.
-- **Apportez votre propre modèle** — 14 fournisseurs intégrés (OpenAI, DeepSeek, Kimi, Zhipu, Qwen…), Base URL personnalisée pour tout le reste. Votre clé API reste sur votre machine ; aucun serveur intermédiaire.
+- **Apportez votre propre modèle** — plus de 20 fournisseurs intégrés, organisés en catalogues Chine et internationaux (OpenAI, Claude, Gemini, DeepSeek, Kimi, Zhipu, Qwen…), avec des protocoles compatibles OpenAI et compatibles Anthropic, et une Base URL personnalisée pour tout le reste. Vous ne savez pas où obtenir une clé ? Le lien « Comment obtenir une clé API » en haut des paramètres IA ouvre un tutoriel pas à pas. Votre clé API reste sur votre machine ; aucun serveur intermédiaire.
 - **Multimodal** — collez une capture d'écran dans le chat et référencez-la avec des modèles multimodaux.
 - **Suivi de la langue** — posez votre question en français, obtenez une réponse en français ; en anglais, une réponse en anglais.
 - **Inclus dans toutes les licences** — l'essai gratuit de 14 jours et tous les niveaux payants. Ouvrez-le avec `Alt+A` ou le groupe **AI** du ruban.
@@ -92,7 +92,14 @@ La plupart des barres latérales IA vous remettent un mur de texte à copier-col
 - **Blocs de mise en évidence** — mettez visuellement en avant les notes importantes.
 - **Table des matières et largeur de page** — générez ou masquez automatiquement une table des matières ; largeur de page manuelle ou automatique.
 - **Adaptation complète au mode sombre** — le contenu rendu, les boîtes de dialogue et la barre latérale IA suivent tous le thème de OneNote.
-- **Import / export transparent** — fichiers Markdown en entrée, fichiers Markdown en sortie (images facultatives).
+- **Import / export transparent** — importez du Markdown depuis le presse-papiers ou un fichier ; exportez la page en Markdown, en HTML monofichier ou en PDF via OneNote (voir ci-dessous).
+
+### 📤 Import et export
+
+- **Import depuis le presse-papiers ou un fichier** — l'entrée d'import demande d'abord la source : collez le contenu du presse-papiers ou choisissez un fichier `.md` / `.markdown` / `.txt` (lu en UTF-8, le fichier lui-même n'est jamais modifié). Le contenu est rendu et inséré à la position du curseur.
+- **Export en Markdown** — vers le presse-papiers ou un dossier (`.md` + un dossier d'images au même niveau), avec `F8`.
+- **Export en HTML monofichier** — une page web moderne et autonome : le CSS et toutes les images sont intégrés dans un seul fichier `.html` qui s'ouvre hors ligne dans n'importe quel navigateur. La page exportée offre une mise en page pleine largeur, une table des matières repliable et consultable par recherche, des thèmes clair / sombre avec couleur d'arrière-plan réglable, la lecture plein écran et le retour en haut.
+- **Export en PDF (via OneNote)** — HydroMark ne génère pas de PDF lui-même ; choisir cette option affiche les étapes de l'export intégré de OneNote (File → Export → Page → PDF, ou Print → « Microsoft Print to PDF »).
 
 ## 🚀 Pour commencer
 
@@ -100,8 +107,8 @@ La plupart des barres latérales IA vous remettent un mur de texte à copier-col
 2. **Lancez** l'installateur — il s'adapte automatiquement à OneNote 32 bits et 64 bits, il n'y a pas de package x86 / x64 séparé à choisir.
 3. **Ouvrez OneNote** et repérez l'onglet **HydroMark** dans le ruban.
 4. **Écrivez du Markdown** — tapez `## ` puis une espace pour un titre, `- ` puis une espace pour une liste ; les autres blocs se rendent avec Entrée ou `F5`.
-5. **Configurez d'abord l'IA** — ouvrez **Paramètres → Modèle IA**, choisissez un fournisseur et saisissez votre clé API (clé à apporter soi-même ; 14 fournisseurs intégrés). Ouvrez ensuite **l'assistant IA** avec `Alt+A` (ou le groupe **AI** du ruban) et laissez-le écrire articles et tableaux directement dans la page.
-6. **Exportez** la page courante vers `.md` avec `F8`.
+5. **Configurez d'abord l'IA** — ouvrez **Paramètres → Modèle IA**, choisissez un fournisseur et saisissez votre clé API (clé à apporter soi-même ; plus de 20 fournisseurs intégrés, et un lien vers le tutoriel « Comment obtenir une clé API » en haut de la boîte de dialogue). Ouvrez ensuite **l'assistant IA** avec `Alt+A` (ou le groupe **AI** du ruban) et laissez-le écrire articles et tableaux directement dans la page.
+6. **Exportez** la page courante avec `F8` — choisissez Markdown (presse-papiers ou dossier), HTML monofichier ou le guide PDF (export intégré de OneNote).
 
 Un essai complet de 14 jours démarre automatiquement — sans carte bancaire. Pour le guide complet, voir la [documentation](https://hydromark.hydrolinx.top/documentation).
 
@@ -129,7 +136,11 @@ Un essai complet de 14 jours démarre automatiquement — sans carte bancaire. P
 
 **Q: Le contenu Markdown reste-t-il natif dans OneNote ?**
 
-**A:** Oui. Le rendu utilise les éléments natifs de OneNote plutôt que des images, de sorte que les notes restent modifiables, consultables et synchronisables sur tous les clients OneNote. Les pages peuvent toujours être exportées vers `.md`.
+**A:** Oui. Le rendu utilise les éléments natifs de OneNote plutôt que des images, de sorte que les notes restent modifiables, consultables et synchronisables sur tous les clients OneNote. Les pages peuvent toujours être exportées vers `.md` ou en HTML monofichier.
+
+**Q: Puis-je exporter une page en HTML ou en PDF ?**
+
+**A:** En HTML, oui — la boîte de dialogue d'export (`F8`) propose l'option **HTML monofichier** : le CSS et les images sont intégrés dans un seul fichier `.html` qui s'ouvre hors ligne dans n'importe quel navigateur, avec une table des matières consultable par recherche, des thèmes clair / sombre et la lecture plein écran. Pour le PDF, HydroMark affiche un guide de l'**export PDF intégré de OneNote** (File → Export → Page → PDF) ; il ne génère pas lui-même de fichiers PDF.
 
 **Q: Comment l'installer ?**
 
